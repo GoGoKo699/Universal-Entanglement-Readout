@@ -1,0 +1,142 @@
+{
+  "all_checks_passed": true,
+  "conjunction_grid_points": 2401,
+  "filter_checks": [
+    {
+      "epsilon": "1/8",
+      "nodes": 4,
+      "nonnegative_points_checked": 9,
+      "oddness_boundedness_and_gap_inequalities": true
+    },
+    {
+      "epsilon": "1/256",
+      "nodes": 9,
+      "nonnegative_points_checked": 19,
+      "oddness_boundedness_and_gap_inequalities": true
+    },
+    {
+      "epsilon": "1/65536",
+      "nodes": 17,
+      "nonnegative_points_checked": 35,
+      "oddness_boundedness_and_gap_inequalities": true
+    },
+    {
+      "epsilon": "1/4294967296",
+      "nodes": 33,
+      "nonnegative_points_checked": 67,
+      "oddness_boundedness_and_gap_inequalities": true
+    }
+  ],
+  "method": "stdlib exact fractions; no numerical tolerances",
+  "proof_dependency": "Analytic inequalities and imported Sherstov threshold-degree theorem, not finite checks, establish the asymptotic result.",
+  "state_cases": [
+    {
+      "case": "corner(0,0)",
+      "e3_e4_e5_e6": [
+        "348/54925",
+        "1776/17850625",
+        "0",
+        "0"
+      ],
+      "polynomial_degree_upper_bound": 3816,
+      "positive_rational_score": true,
+      "separable": true
+    },
+    {
+      "case": "corner(1/10000,1/10000)",
+      "e3_e4_e5_e6": [
+        "174634000118219/27462500000000000",
+        "561628139155984313/5578320312500000000000",
+        "1112644521163578501/55783203125000000000000000",
+        "69319516647780111/69729003906250000000000000000"
+      ],
+      "polynomial_degree_upper_bound": 3816,
+      "positive_rational_score": true,
+      "separable": true
+    },
+    {
+      "case": "corner(0,1/10000)",
+      "e3_e4_e5_e6": [
+        "87158465691759/13731250000000000",
+        "4466490784730462169/44626562500000000000000",
+        "1109556066595560111/111566406250000000000000000",
+        "0"
+      ],
+      "polynomial_degree_upper_bound": 3816,
+      "positive_rational_score": true,
+      "separable": true
+    },
+    {
+      "case": "corner(-1/10000,1/10000)",
+      "e3_e4_e5_e6": [
+        "1391997803/219700000000",
+        "887988001/8925312500000",
+        "-87/1373125000000",
+        "-111/111566406250000"
+      ],
+      "polynomial_degree_upper_bound": 3816,
+      "positive_rational_score": false,
+      "separable": false
+    },
+    {
+      "case": "corner(-1/10000,0)",
+      "e3_e4_e5_e6": [
+        "86841465688241/13731250000000000",
+        "4413492783069482169/44626562500000000000000",
+        "-1110444066604440111/111566406250000000000000000",
+        "0"
+      ],
+      "polynomial_degree_upper_bound": 3816,
+      "positive_rational_score": false,
+      "separable": false
+    },
+    {
+      "case": "corner(-1/10000,-1/10000)",
+      "e3_e4_e5_e6": [
+        "173366000171781/27462500000000000",
+        "548378643494504313/5578320312500000000000",
+        "-1107351770386368501/55783203125000000000000000",
+        "69430516652220111/69729003906250000000000000000"
+      ],
+      "polynomial_degree_upper_bound": 3816,
+      "positive_rational_score": false,
+      "separable": false
+    },
+    {
+      "case": "corner(1/10000,-1/10000)",
+      "e3_e4_e5_e6": [
+        "1391997803/219700000000",
+        "887988001/8925312500000",
+        "-87/1373125000000",
+        "-111/111566406250000"
+      ],
+      "polynomial_degree_upper_bound": 3816,
+      "positive_rational_score": false,
+      "separable": false
+    },
+    {
+      "case": "embedded_bell",
+      "e3_e4_e5_e6": [
+        "-1/4",
+        "-1/16",
+        "0",
+        "0"
+      ],
+      "polynomial_degree_upper_bound": 1152,
+      "positive_rational_score": false,
+      "separable": false
+    },
+    {
+      "case": "maximally_mixed",
+      "e3_e4_e5_e6": [
+        "5/54",
+        "5/432",
+        "1/1296",
+        "1/46656"
+      ],
+      "polynomial_degree_upper_bound": 3816,
+      "positive_rational_score": true,
+      "separable": true
+    }
+  ]
+}

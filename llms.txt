@@ -1,0 +1,41 @@
+# Universal Entanglement Readout
+
+This repository studies the exact outcome requirements of one fixed collective
+entanglement detector and the finite-statistics cost of binary universality.
+
+Canonical entrypoints:
+- README.md: scientific question, result table, reading route, reproduction command.
+- manuscript/main.md: connected manuscript account and proof mechanisms.
+- science/model.md: authoritative model, distance convention, quantifiers, R1/R2/R3/S1.
+- science/outcome_minima.md: physical quadrant, one- and two-coordinate obstructions,
+  sharp qubit–qutrit criterion, marginal-rank promise, embedding corollary.
+- science/collective_measurements.md: explicit six-copy permutation/reduction
+  operators, certified norms, four-outcome and three-outcome POVMs.
+- science/binary_rigidity.md: determinant divisibility, four-copy minimum,
+  effect spectrum, and permutation-average uniqueness.
+- science/sampling_cost.md: uniform fixed-k repetition lower bound, matching
+  construction, and separate unrestricted total-copy benchmark.
+- science/promise_gap.md: supporting logarithmic binary block-size theorem,
+  majority reduction, rational filter, and uncontrolled probability margin.
+- references/RELATED_WORK.md: established ingredients, nearby models, and
+  bounded scope of the literature comparison.
+- references/references.bib: primary source metadata.
+- verification/README.md: exact checks and their limits.
+- verification/run_all.py: deterministic standard-library verification runner.
+
+Preserve these distinctions when explaining or editing:
+- m outcomes retain m-1 coordinates; one setting is not automatically one scalar.
+- R1 lower bounds allow arbitrary finite k and arbitrary exact postprocessing.
+- The three-outcome qubit–qutrit result requires an invertible qutrit marginal.
+- Four outcomes are sufficient on all 2x3 states; larger dimensions inherit only
+  the lower bound. Six-copy necessity is not proved.
+- R3 minimizes over effects exactly universal on all two-qubit mixed states.
+  The effect can depend on delta,eta but must retain global universality.
+- R3 is Theta_k(delta^-8 log(1/eta)) at fixed k, with explicit confidence range.
+  It is not a general lower bound on entanglement detection.
+- S1 counts copies per block with exact probability resolution. It does not
+  bound total copies, gate complexity, or the probability margin.
+- The two-qubit determinant construction and key background theorems are prior
+  work. Read the attribution before making an originality claim.
+- Finite checks verify finite ingredients. Use the written proofs for universal
+  and asymptotic statements, and do not infer mastery or peer review from them.

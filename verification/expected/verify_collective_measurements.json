@@ -1,0 +1,81 @@
+{
+  "all_checks_passed": true,
+  "antisymmetrizer_traces": {
+    "4": 15,
+    "6": 1
+  },
+  "arithmetic": "Exact fractions and integer permutation cycles; standard library only.",
+  "cases": [
+    {
+      "D_and_H_commute": true,
+      "collective_contractions_equal_minor_formulas": true,
+      "f": "1/46656",
+      "g": "1/3888",
+      "h": "5/432",
+      "name": "maximally_mixed"
+    },
+    {
+      "D_and_H_commute": true,
+      "collective_contractions_equal_minor_formulas": true,
+      "f": "0",
+      "g": "0",
+      "h": "-1/16",
+      "name": "embedded_bell"
+    },
+    {
+      "D_and_H_commute": true,
+      "collective_contractions_equal_minor_formulas": true,
+      "f": "0",
+      "g": "-1/1024",
+      "h": "-5/256",
+      "name": "rank_five_npt"
+    },
+    {
+      "D_and_H_commute": false,
+      "collective_contractions_equal_minor_formulas": true,
+      "f": "1/4096",
+      "g": "0",
+      "h": "-1/64",
+      "name": "two_negative_g_zero"
+    },
+    {
+      "D_and_H_commute": false,
+      "collective_contractions_equal_minor_formulas": true,
+      "f": "0",
+      "g": "0",
+      "h": "1776/17850625",
+      "name": "rank_four_pt_seed"
+    },
+    {
+      "D_and_H_commute": false,
+      "collective_contractions_equal_minor_formulas": true,
+      "f": "245661372788371/832838760000000000000000",
+      "g": "250739523637605997/2255604975000000000000000",
+      "h": "99132921401057/771147000000000000",
+      "name": "noncommuting_full_rank_ppt"
+    }
+  ],
+  "four_copy_subset_average_terms": 15,
+  "four_effect_lower_bounds": [
+    "19/80",
+    "1/10",
+    "1/5",
+    "3/80"
+  ],
+  "four_outcome_scale": "1/80",
+  "linear_map_certificate": {
+    "matrix_units_checked": 36,
+    "qubit_partial_transpose_identity": true,
+    "reduction_is_hilbert_schmidt_isometry": true,
+    "self_adjoint_maps": true,
+    "unnormalized_trace_convention": "T(I)=2I; R(I)=I"
+  },
+  "norm_certificate_scope": "Analytic proofs in science/collective_measurements.md; no test-state positivity inference.",
+  "polarization_derivative_factor": 6,
+  "three_effect_lower_bounds": [
+    "5/16",
+    "1/12",
+    "1/16"
+  ],
+  "three_outcome_scale": "1/48"
+}

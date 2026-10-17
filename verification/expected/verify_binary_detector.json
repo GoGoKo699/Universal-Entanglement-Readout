@@ -1,0 +1,112 @@
+{
+  "all_checks_passed": true,
+  "analytic_claims_not_proved_by_this_script": [
+    "absolute irreducibility",
+    "real smooth patch Zariski density",
+    "Bernoulli information bound",
+    "concurrence distance comparison"
+  ],
+  "gram_polynomial": "K^2 = 12 K",
+  "gram_trace": 24,
+  "normalized_nonzero_schmidt_weights": [
+    "1/2",
+    "1/2"
+  ],
+  "pure_checks": [
+    {
+      "cos_theta": "4/5",
+      "det_pt": "-20736/390625",
+      "distance_delta": "12/25",
+      "sin_theta": "3/5"
+    },
+    {
+      "cos_theta": "12/13",
+      "det_pt": "-12960000/815730721",
+      "distance_delta": "60/169",
+      "sin_theta": "5/13"
+    },
+    {
+      "cos_theta": "99/101",
+      "det_pt": "-15369536160000/10828567056280801",
+      "distance_delta": "1980/10201",
+      "sin_theta": "20/101"
+    }
+  ],
+  "schmidt_integer_matrix": [
+    [
+      0,
+      1,
+      -1,
+      -1,
+      1,
+      0
+    ],
+    [
+      -1,
+      0,
+      1,
+      1,
+      0,
+      -1
+    ],
+    [
+      1,
+      -1,
+      0,
+      0,
+      -1,
+      1
+    ],
+    [
+      1,
+      -1,
+      0,
+      0,
+      -1,
+      1
+    ],
+    [
+      -1,
+      0,
+      1,
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      -1,
+      -1,
+      1,
+      0
+    ]
+  ],
+  "schmidt_matrix_indices": [
+    3,
+    5,
+    6,
+    9,
+    10,
+    12
+  ],
+  "status": "all exact checks passed",
+  "tau_determinant": "1/432",
+  "tau_eigenvalues": [
+    "1/2",
+    "1/6",
+    "1/6",
+    "1/6"
+  ],
+  "tau_pt_eigenvalues": [
+    "1/3",
+    "1/3",
+    "1/3",
+    "0"
+  ],
+  "w_spectrum_multiplicities": {
+    "-1/2": 1,
+    "0": 252,
+    "1/2": 3
+  }
+}
