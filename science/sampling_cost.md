@@ -18,7 +18,7 @@ Let $`\mathrm{SEP}`$ be the set of separable two-qubit states, and define
 \Delta(\rho)
 =\inf_{\sigma\in\mathrm{SEP}}
 \frac12\Vert\rho-\sigma\Vert_1.
-\tag{1}
+\qquad\text{(1)}
 ```
 
 Fix an integer $`k\ge4`$. In each of $`n`$ independent runs, a fixed effect $`0\le E\le I`$ acts on a fresh block of $`k`$ copies of the same unknown state. The retained outcomes are independent Bernoulli variables with probability
@@ -35,7 +35,7 @@ For $`0<\delta\le1/2`$ and $`0<\eta<1/2`$, define $`n_k^*(\delta,\eta)`$ as the 
 H_0:\rho\in\mathrm{SEP},
 \qquad
 H_1:\Delta(\rho)\ge\delta.
-\tag{2}
+\qquad\text{(2)}
 ```
 
 Both $`E`$ and the finite-sample decision rule may depend on $`\delta`$ and $`\eta`$. The requirement $`E\in\mathcal U_k`$ still applies to all mixed states, including states outside the promise in (2).
@@ -49,7 +49,7 @@ B_k=\frac{\pi^4}{24}\,k^4\,6^k
 =\frac23\,k^4\,6^k\left(\frac\pi2\right)^4,
 \qquad
 L_\eta=(1-2\eta)\log\frac{1-\eta}{\eta},
-\tag{3}
+\qquad\text{(3)}
 ```
 
 where logarithms are natural. Then
@@ -60,7 +60,7 @@ where logarithms are natural. Then
 n_k^*(\delta,\eta)
 \ \le\
 \left\lceil2\delta^{-8}\log\frac1\eta\right\rceil.
-\tag{4}
+\qquad\text{(4)}
 ```
 
 For $`0<\eta\le1/4`$, one has
@@ -87,7 +87,7 @@ with $`\Gamma`$ the partial transpose on $`A`$. For entangled two-qubit states, 
 
 ```math
 C(\rho)\le2|f(\rho)|^{1/4}.
-\tag{5}
+\qquad\text{(5)}
 ```
 
 Here $`C`$ is the usual convex-roof concurrence. Equation (5) is the combination of Eqs. (3) and (5) in [Augusiak, Demianowicz, and Horodecki (2008)](https://arxiv.org/pdf/quant-ph/0604109): their $`\pi_2`$ equals $`2|f|^{1/4}`$ on entangled states and bounds concurrence from above. Concurrence and its pure-state decompositions are described in [Wootters (1998)](https://arxiv.org/abs/quant-ph/9709029).
@@ -114,7 +114,7 @@ Taking the infimum over ensembles yields
 
 ```math
 \Delta(\rho)\le\frac{C(\rho)}2.
-\tag{6}
+\qquad\text{(6)}
 ```
 
 Combining (5) and (6) proves
@@ -122,7 +122,7 @@ Combining (5) and (6) proves
 ```math
 |f(\rho)|\ge\Delta(\rho)^4
 \qquad\text{for every entangled two-qubit state.}
-\tag{7}
+\qquad\text{(7)}
 ```
 
 Since entanglement is equivalent to $`f<0`$, (7) supplies a uniform signed probability gap for the upper bound.
@@ -138,7 +138,7 @@ For $`0\le\theta\le\pi/4`$, let
 \rho_\theta=|\psi_\theta\rangle\langle\psi_\theta|,
 \qquad
 \delta_\theta=\sin\theta\cos\theta.
-\tag{8}
+\qquad\text{(8)}
 ```
 
 Its partial transpose has eigenvalues
@@ -154,7 +154,7 @@ Therefore
 
 ```math
 f(\rho_\theta)=-\delta_\theta^4.
-\tag{9}
+\qquad\text{(9)}
 ```
 
 Schmidt dephasing gives $`\Delta(\rho_\theta)\le\delta_\theta`$. To prove equality, define
@@ -186,7 +186,7 @@ Taking the infimum proves
 
 ```math
 \Delta(\rho_\theta)=\delta_\theta.
-\tag{10}
+\qquad\text{(10)}
 ```
 
 Every $`\delta\in[0,1/2]`$ is realized by
@@ -199,7 +199,7 @@ For the statistical lower bound, the separable comparator will be
 
 ```math
 \rho_0=|00\rangle\langle00|.
-\tag{11}
+\qquad\text{(11)}
 ```
 
 It need not be the closest separable state to $`\rho_\theta`$. The rigidity theorem makes its measured probability exactly the same boundary value used below.
@@ -214,7 +214,7 @@ p_E(\rho)=c+f(\rho)q(\rho),
 0<c<1,
 \qquad
 \deg q\le k-4.
-\tag{12}
+\qquad\text{(12)}
 ```
 
 Bounding $`q`$ separately for each effect would give a lower bound with uncontrolled effect-dependent constants. The following argument is uniform even when $`E`$ changes with $`\delta`$.
@@ -228,7 +228,7 @@ Use the separable boundary state
 +\frac{|\Phi^+\rangle\langle\Phi^+|}{3},
 \qquad
 |\Phi^+\rangle=\frac{|00\rangle+|11\rangle}{\sqrt2}.
-\tag{13}
+\qquad\text{(13)}
 ```
 
 It satisfies $`\tau\ge I_4/6`$ and $`f(\tau)=0`$, so (12) gives
@@ -245,7 +245,7 @@ Since $`\tau^{\otimes k}\ge6^{-k}I`$,
 \Vert E\Vert_\infty\le\mathrm{Tr}E\le6^k c,
 \qquad
 \Vert I-E\Vert_\infty\le\mathrm{Tr}(I-E)\le6^k(1-c).
-\tag{14}
+\qquad\text{(14)}
 ```
 
 These inequalities hold for every effect in the class. They also show directly why a nontrivial universal effect cannot have $`c=0`$ or $`c=1`$.
@@ -290,7 +290,7 @@ The fourth derivative obtained from the complementary effect is $`-u^{(4)}(\thet
 ```math
 |u^{(4)}(\theta)|
 \le(2k)^4\,6^k\min(c,1-c).
-\tag{15}
+\qquad\text{(15)}
 ```
 
 By (9) and (12),
@@ -318,7 +318,7 @@ Using $`\theta\le\pi\delta_\theta/2`$ and (3), we obtain
 ```math
 |p_E(\rho_\theta)-c|
 \le B_k\min(c,1-c)\delta_\theta^4.
-\tag{16}
+\qquad\text{(16)}
 ```
 
 No coefficient bound on $`q`$ and no lower bound on $`c`$ independent of $`E`$ were assumed.
@@ -334,7 +334,7 @@ D_{\mathrm{KL}}\bigl(\mathrm{Ber}(p)\Vert
 &=p\log\frac pc+(1-p)\log\frac{1-p}{1-c}\\
 &\le\frac{(p-c)^2}{c(1-c)}.
 \end{aligned}
-\tag{17}
+\qquad\text{(17)}
 ```
 
 The endpoint cases use the continuous convention $`0\log0=0`$.
@@ -353,7 +353,7 @@ B_k^2
 \delta^8\\
 &\le B_k^2\delta^8.
 \end{aligned}
-\tag{18}
+\qquad\text{(18)}
 ```
 
 This estimate is uniform over $`\mathcal U_k`$.
@@ -423,7 +423,7 @@ p_{E_*}(\rho)\ge\frac12,\\[2mm]
 \Delta(\rho)\ge\delta:&
 p_{E_*}(\rho)\le\frac12-\delta^4.
 \end{array}
-\tag{19}
+\qquad\text{(19)}
 ```
 
 Let $`\widehat p`$ be the empirical frequency of outcome one. Declare entanglement when

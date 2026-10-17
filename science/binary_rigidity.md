@@ -38,7 +38,7 @@ If $`E`$ is exactly universal, there are a constant $`c\in(0,1)`$ and a nonzero 
 p_E(\rho)=c+f(\rho)q(\rho),
 \qquad
 \deg q\le k-4.
-\tag{1}
+\qquad\text{(1)}
 ```
 
 Consequently, $`k\ge4`$. When $`k=4`$,
@@ -46,7 +46,7 @@ Consequently, $`k\ge4`$. When $`k=4`$,
 ```math
 p_E(\rho)=c+\alpha f(\rho),
 \qquad \alpha\in\mathbb R\setminus\{0\}.
-\tag{2}
+\qquad\text{(2)}
 ```
 
 Four copies suffice. The feasible pairs in (2) are exactly
@@ -54,7 +54,7 @@ Four copies suffice. The feasible pairs in (2) are exactly
 ```math
 |\alpha|\le2\min(c,1-c),
 \qquad \alpha\ne0.
-\tag{3}
+\qquad\text{(3)}
 ```
 
 In particular, $`c=1/2`$ and $`\alpha=1`$ are attained by the effect constructed below.
@@ -77,7 +77,7 @@ The qubit reduction identity is
 
 ```math
 H=(\sigma_y\otimes I_2)\rho^\Gamma(\sigma_y\otimes I_2).
-\tag{4}
+\qquad\text{(4)}
 ```
 
 If $`B`$ has rank one, positivity confines $`\rho`$ to $`\mathbb C^2\otimes\mathrm{supp}B`$, so $`\rho`$ is a product state. Otherwise $`B>0`$, and
@@ -96,7 +96,7 @@ Conversely, $`H\ge0`$ implies $`\det H\ge0`$. Combining this argument with (4) a
 \rho\in\mathrm{SEP}
 \quad\Longleftrightarrow\quad
 f(\rho)\ge0.
-\tag{5}
+\qquad\text{(5)}
 ```
 
 This argument concerns the spectrum of fixed matrices associated with $`\rho`$. It does not require a physical implementation of the state-dependent whitening transformation.
@@ -134,7 +134,7 @@ Set
 |\Phi^+\rangle=\frac{|00\rangle+|11\rangle}{\sqrt2},
 \qquad
 \tau=\frac{I_4}{6}+\frac{|\Phi^+\rangle\langle\Phi^+|}{3}.
-\tag{6}
+\qquad\text{(6)}
 ```
 
 The spectrum of $`\tau`$ is
@@ -177,7 +177,7 @@ Connectedness of $`\Sigma`$ forces
 
 ```math
 p(\rho)=c\quad\text{for every }\rho\in\Sigma
-\tag{7}
+\qquad\text{(7)}
 ```
 
 for one fixed endpoint $`c\in\{a,b\}`$.
@@ -246,7 +246,7 @@ Label a computational basis of $`\mathcal H`$ by $`0,1,2,3`$, corresponding to $
 \otimes|\pi(2)\rangle\otimes|\pi(3)\rangle,
 \qquad
 P=|\Omega\rangle\langle\Omega|.
-\tag{8}
+\qquad\text{(8)}
 ```
 
 For every complex $`4\times4`$ matrix $`X`$, the action of $`X^{\otimes4}`$ on the one-dimensional exterior power gives
@@ -259,7 +259,7 @@ Take partial transpose on all four $`A`$ qubits of $`P`$:
 
 ```math
 W=P^{\Gamma_{A_1A_2A_3A_4}}.
-\tag{9}
+\qquad\text{(9)}
 ```
 
 Partial transpose is self-adjoint under the trace pairing. Hence
@@ -268,7 +268,7 @@ Partial transpose is self-adjoint under the trace pairing. Hence
 \mathrm{Tr}(W\rho^{\otimes4})
 =\mathrm{Tr}\!\left(P(\rho^\Gamma)^{\otimes4}\right)
 =f(\rho).
-\tag{10}
+\qquad\text{(10)}
 ```
 
 This supplies an explicit instance of the established polynomial-to-collective-observable construction; see [collective_measurements.md](collective_measurements.md) and [Brun (2004)](https://arxiv.org/abs/quant-ph/0401067).
@@ -293,7 +293,7 @@ M=
 -1&0&1&1&0&-1\\
 0&1&-1&-1&1&0
 \end{pmatrix}.
-\tag{11}
+\qquad\text{(11)}
 ```
 
 Put $`K=MM^T`$. Direct multiplication gives
@@ -313,21 +313,21 @@ For a pure bipartite state with Schmidt coefficients $`s_i`$, its partial transp
 -\frac12\ \text{with multiplicity }1,\,
 0\ \text{with multiplicity }252
 \right\}.
-\tag{12}
+\qquad\text{(12)}
 ```
 
 Thus
 
 ```math
 E_*=\frac{I}{2}+W
-\tag{13}
+\qquad\text{(13)}
 ```
 
 is a valid binary effect. Its outcome probability is
 
 ```math
 p_{E_*}(\rho)=\frac12+f(\rho).
-\tag{14}
+\qquad\text{(14)}
 ```
 
 By (5), the exact threshold $`p_{E_*}=1/2`$ distinguishes the classes, with equality assigned to separability. This proves four-copy sufficiency.
@@ -338,7 +338,7 @@ Let $`U_\pi`$ permute the four entire two-qubit copies. For any effect $`E`$, it
 
 ```math
 \overline E=\frac1{24}\sum_{\pi\in S_4}U_\pi E U_\pi^\dagger
-\tag{15}
+\qquad\text{(15)}
 ```
 
 is still an effect and has the same expectation on every $`\rho^{\otimes4}`$. The observable $`W`$ is also permutation invariant: the projector $`P`$ is invariant, and the chosen partial transpose commutes with conjugation by these real copy-permutation matrices.
@@ -347,7 +347,7 @@ Suppose $`p_E=c+\alpha f`$. We claim
 
 ```math
 \overline E=cI+\alpha W.
-\tag{16}
+\qquad\text{(16)}
 ```
 
 Let $`Q`$ be the difference between the two sides. Its expectation on $`\rho^{\otimes4}`$ vanishes for every density operator. By positive rescaling, it vanishes on $`X^{\otimes4}`$ for every positive-definite Hermitian $`X`$. This is a homogeneous polynomial identity, so it holds for every Hermitian $`X`$.
