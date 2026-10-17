@@ -6,9 +6,9 @@ This document identifies the established results used in this project and distin
 
 The resource studied here is the number of probability coordinates retained from one fixed POVM on a fixed finite number of identical copies. For a binary measurement, the complete retained information is
 
-$$
-p(\rho)=\operatorname{Tr}(E\rho^{\otimes k}),\qquad 0\le E\le I.
-$$
+```math
+p(\rho)=\mathrm{Tr}(E\rho^{\otimes k}),\qquad 0\le E\le I.
+```
 
 Exact classification permits an arbitrary classical decision rule applied to these probabilities, and requires correctness for every state in the specified domain. Copy count, retained output count, and the number of repetitions are distinct resources. A single measurement setting can have many outcomes; a single named invariant can require several measured quantities; and a witness chosen after learning the state is not one fixed universal apparatus.
 
@@ -20,7 +20,7 @@ Exact classification permits an arbitrary classical decision rule applied to the
 
 **Michał Horodecki, Paweł Horodecki, and Ryszard Horodecki, “Separability of Mixed States: Necessary and Sufficient Conditions” (1996)** [PPT1996]. [Publisher](https://doi.org/10.1016/S0375-9601(96)00706-2), [primary preprint](https://arxiv.org/abs/quant-ph/9605038).
 
-Peres supplies necessity of positivity under partial transposition. The Horodecki paper establishes sufficiency in $2\times2$ and $2\times3$. This project imports that equivalence. It does not assume PPT is sufficient in higher dimensions.
+Peres supplies necessity of positivity under partial transposition. The Horodecki paper establishes sufficiency in $`2\times2`$ and $`2\times3`$. This project imports that equivalence. It does not assume PPT is sufficient in higher dimensions.
 
 ### Augusiak2008
 
@@ -28,11 +28,11 @@ Peres supplies necessity of positivity under partial transposition. The Horodeck
 
 This is the original universal four-copy determinant observable and the criterion
 
-$$
+```math
 \rho\text{ is entangled}\quad\Longleftrightarrow\quad\det(\rho^\Gamma)<0
-$$
+```
 
-for two qubits. The paper also supplies the quantitative input used here: Eqs. (3) and (5) define $\pi_2(\rho)=2|\det(\rho^\Gamma)|^{1/4}$ on entangled states and prove $C(\rho)\le\pi_2(\rho)$, with continuity covering singular states. Its discussion asks about higher-dimensional universal collective observables.
+for two qubits. The paper also supplies the quantitative input used here: Eqs. (3) and (5) define $`\pi_2(\rho)=2|\det(\rho^\Gamma)|^{1/4}`$ on entangled states and prove $`C(\rho)\le\pi_2(\rho)`$, with continuity covering singular states. Its discussion asks about higher-dimensional universal collective observables.
 
 The determinant construction, its sufficiency, and this concurrence bound are established results. The present project studies necessity, polynomial rigidity, retained output minima, and the statistical consequences of requiring exact universality.
 
@@ -50,17 +50,17 @@ This single-author paper further analyzes the determinant-based entanglement qua
 
 **Todd A. Brun, “Measuring polynomial functions of states,” Quantum Information and Computation 4(5), 401–408 (2004)** [Brun2004]. [Publisher](https://doi.org/10.26421/QIC4.5-6), [primary preprint](https://arxiv.org/abs/quant-ph/0401067).
 
-Brun shows how degree-$k$ polynomial functions of density-matrix entries can be measured on $k$ copies. For a real polynomial, the corresponding observable can be chosen Hermitian. The polynomial-to-collective-observable correspondence is therefore established background. This project's conversion of several bounded Hermitian observables into one finite-outcome POVM is stated explicitly in its measurement model.
+Brun shows how degree-$`k`$ polynomial functions of density-matrix entries can be measured on $`k`$ copies. For a real polynomial, the corresponding observable can be chosen Hermitian. The polynomial-to-collective-observable correspondence is therefore established background. This project's conversion of several bounded Hermitian observables into one finite-outcome POVM is stated explicitly in its measurement model.
 
 **M. S. Leifer, N. Linden, and A. Winter, “Measuring Polynomial Invariants of Multi-Party Quantum States,” Physical Review A 69, 052304 (2004)** [Leifer2004]. [Publisher](https://doi.org/10.1103/PhysRevA.69.052304), [primary preprint](https://arxiv.org/pdf/quant-ph/0308008).
 
-This work constructs invariant-measurement networks. Section VII also analyzes their sampling efficiency: a binary circuit encoding an invariant through $p=(1+F)/2$ has variance $(1-F^2)/N$ for the inferred invariant after $N$ runs. Thus the distinction between few measured parameters and few samples is already explicit in the literature.
+This work constructs invariant-measurement networks. Section VII also analyzes their sampling efficiency: a binary circuit encoding an invariant through $`p=(1+F)/2`$ has variance $`(1-F^2)/N`$ for the inferred invariant after $`N`$ runs. Thus the distinction between few measured parameters and few samples is already explicit in the literature.
 
 ### Cerf1999
 
 **N. J. Cerf, C. Adami, and R. M. Gingrich, “Reduction criterion for separability,” Physical Review A 60, 898–909 (1999)** [Cerf1999]. [Publisher](https://doi.org/10.1103/PhysRevA.60.898), [authors' institutional record and published PDF](https://authors.library.caltech.edu/records/67hpc-5y923).
 
-When the transposed subsystem is a qubit, the reduction operator $I_2\otimes\rho_B-\rho$ is unitarily equivalent to the partial transpose. That identity and the resulting low-dimensional completeness of the reduction criterion are prior results. The weighted-adjugate statistic used in this repository is a further construction based on this identity.
+When the transposed subsystem is a qubit, the reduction operator $`I_2\otimes\rho_B-\rho`$ is unitarily equivalent to the partial transpose. That identity and the resulting low-dimensional completeness of the reduction criterion are prior results. The weighted-adjugate statistic used in this repository is a further construction based on this identity.
 
 ## Imported algebraic geometry
 
@@ -68,7 +68,7 @@ When the transposed subsystem is a qubit, the reduction operator $I_2\otimes\rho
 
 **Dragomir Z. Đoković, “Multigraded Poincaré series for mixed states of two qubits and the boundary of the set of separable states” (2006)** [Djokovic2006]. [Primary preprint, v2](https://arxiv.org/abs/quant-ph/0604190v2).
 
-Section 3 describes the two-qubit separable boundary using the determinant hypersurfaces of $\rho$ and $\rho^\Gamma$. Proposition 3.1 identifies the singular determinant stratum, and Theorem 3.3 proves smoothness of the separable boundary inside the full-rank state space. This boundary geometry precedes the present work. It does not itself state a rigidity theorem for an arbitrary polynomial scalar classifier.
+Section 3 describes the two-qubit separable boundary using the determinant hypersurfaces of $`\rho`$ and $`\rho^\Gamma`$. Proposition 3.1 identifies the singular determinant stratum, and Theorem 3.3 proves smoothness of the separable boundary inside the full-rank state space. This boundary geometry precedes the present work. It does not itself state a rigidity theorem for an arbitrary polynomial scalar classifier.
 
 ### BrunsVetter1988
 
@@ -82,7 +82,7 @@ Theorem 2.10 proves primality of the ideal of maximal minors of a generic matrix
 
 **Lin Zhang and Bing Xie, “Bargmann Invariants Are Insufficient for Complete Local-Unitary Orbit Discrimination,” arXiv:2609.11090v1 (2026)** [ZhangXie2026]. [Primary full text](https://arxiv.org/html/2609.11090v1).
 
-Theorem 4 gives a complete qubit–qutrit test through the four inequalities $e_3,e_4,e_5,e_6\ge0$ for the partial transpose, expressed using moments through order six and marginal trace words. It does not assert that four statistics are minimal. The paper's impossibility results restrict the ordinary marginal-word Bargmann algebra; they do not exclude arbitrary polynomial readouts.
+Theorem 4 gives a complete qubit–qutrit test through the four inequalities $`e_3,e_4,e_5,e_6\ge0`$ for the partial transpose, expressed using moments through order six and marginal trace words. It does not assert that four statistics are minimal. The paper's impossibility results restrict the ordinary marginal-word Bargmann algebra; they do not exclude arbitrary polynomial readouts.
 
 This is a direct comparison for the present three-statistic construction. The all-degree lower bound in this repository concerns arbitrary polynomial outputs, and the six-copy upper bound uses a different decision triple.
 
@@ -133,7 +133,7 @@ This paper studies local quantum estimation, optimal observables, and the diffic
 
 The published paper demonstrates a separation between criterion complexity and detection-protocol sample complexity in growing dimension, with specified random-state priors and adaptive single-copy protocols. It also discusses the benefits of collective measurements. This establishes a related statistical distinction, but does not give the fixed-dimensional, distance-to-SEP minimax theorem for an exactly universal binary collective detector studied here. Comparisons should use the published version; the initial preprint has different theorem constants.
 
-The repository's $\delta^{-8}$ repetition law is conditional on exact universal binary readout at fixed block size. It is not a lower bound for general entanglement detection, protocols retaining more outputs, or apparatuses required to solve only a specified nonzero-gap promise. The distinction between readout count and sample cost is already present in [Leifer2004] and [LiuWei2025].
+The repository's $`\delta^{-8}`$ repetition law is conditional on exact universal binary readout at fixed block size. It is not a lower bound for general entanglement detection, protocols retaining more outputs, or apparatuses required to solve only a specified nonzero-gap promise. The distinction between readout count and sample cost is already present in [Leifer2004] and [LiuWei2025].
 
 ### Haah2017
 
@@ -149,9 +149,9 @@ This is background on the copy complexity of state estimation. The fixed-dimensi
 
 Theorem 1.10, on page 6 of the author-hosted manuscript, proves
 
-$$
+```math
 \deg_{\pm}(\mathrm{MAJ}_n\wedge\mathrm{MAJ}_n)=\Omega(\log n)
-$$
+```
 
 for two independent majorities on disjoint variables, with a matching upper bound discussed there. The paper also develops the relevant relation between rational approximation and polynomial sign representation.
 
