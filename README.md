@@ -29,7 +29,7 @@ The determinant factor forces at least fourth-order flatness along a weakly enta
 
 ## Read the science
 
-Start with the [manuscript account](manuscript/main.md) for the question, mechanism, and connected argument. The [model and exact claims](science/model.md) provide the canonical assumptions and resource definitions.
+Start with the [question, model and exact claims](science/model.md). Follow the [outcome hierarchy](science/outcome_minima.md), its [collective measurements](science/collective_measurements.md), and the [binary rigidity](science/binary_rigidity.md) that leads to the [sampling law](science/sampling_cost.md). The [resource interpretation](science/interpretation.md) connects these results and explains what changes under a distance promise.
 
 | To inspect | Read |
 |---|---|
@@ -38,6 +38,7 @@ Start with the [manuscript account](manuscript/main.md) for the question, mechan
 | Universal determinant factorization and four-copy necessity | [Binary rigidity](science/binary_rigidity.md) |
 | Sharp repetition law and unrestricted comparison | [Sampling cost](science/sampling_cost.md) |
 | Binary block size under a nonzero distance promise | [Supporting promise-gap theorem](science/promise_gap.md) |
+| How the results fit together and which resources they constrain | [Readout resources and interpretation](science/interpretation.md) |
 | Established ingredients and nearby measurement models | [Related work](references/RELATED_WORK.md) and [bibliography](references/references.bib) |
 | Exact calculations and their scope | [Verification](verification/README.md) |
 
@@ -47,9 +48,9 @@ The supporting qubit–qutrit promise-gap theorem gives a minimum binary block s
 
 The single educational anchor is **John Watrous, *The Theory of Quantum Information* (2018)**. The [Watrous bridge](learning/WATROUS_BRIDGE.md) identifies the relevant sections of the author's available manuscript, translates the notation, and develops the connections to this project's geometric and statistical arguments.
 
-The [30-milestone map](learning/MILESTONES.md) gives a common route through the whole project. Its **12 background/preliminaries milestones** build the operational framework; its **18 narrative/innovation milestones** connect the proof mechanisms to the attained hierarchy and its resource consequences. The targets depend on the project, while explanations and examples can adapt to the reader.
+The [30-milestone map](learning/MILESTONES.md) gives a common route through the whole project. Its **12 background/preliminaries milestones** build the operational framework; its **18 narrative/innovation milestones** connect the proof mechanisms to the attained hierarchy and its resource consequences. Each milestone has a central question, an understanding target, earlier dependencies, a conceptual connection and references to the scientific account.
 
-For guided study, the [coaching guide](learning/COACHING.md) specifies Revise → Learn → Test, the initial two-question challenge, targeted learning after an unsuccessful attempt, and the all-correct retry rule. [The LLM reading guide](llms.txt) connects these learning materials to the authoritative scientific files. Specialists can use the direct proof route above.
+Use the bridge alongside the milestones for self-directed study. [The LLM reading guide](llms.txt) maps scientific questions and learning topics to their authoritative files. Specialists can use the direct proof route above.
 
 ## Reproduce the finite checks
 

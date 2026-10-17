@@ -2,6 +2,14 @@
 
 A source prepares independent copies of one unknown bipartite density operator. The task is to decide whether that state is separable using the output distribution of one fixed collective apparatus. This page fixes the resources and quantifiers used throughout the repository.
 
+## Why the retained distribution matters
+
+A collective apparatus can measure a nonlinear function of a density operator by acting on several copies [Brun2004](../references/RELATED_WORK.md#brun2004-and-leifer2004). For two qubits, the sign of the partial-transpose determinant completely decides entanglement, and a four-copy collective measurement accesses that determinant [Augusiak2008](../references/RELATED_WORK.md#augusiak2008). Rescaling its observable gives one binary probability. This raises a more restrictive question than whether a suitable witness can be selected for a particular state: can one fixed binary apparatus distinguish every separable mixed state from every entangled one?
+
+The distinction between an entanglement criterion and its experimental data requirement is essential. A single setting can have many retained outcomes. A detector selected after estimating the input state uses information outside its final output. Even when one exactly known scalar is sufficient, estimating it near the separable boundary can be expensive. Earlier work already separates criterion count from statistical efficiency [Leifer2004](../references/RELATED_WORK.md#brun2004-and-leifer2004), [LiuWei2025](../references/RELATED_WORK.md#liuwei2025). The results below give attained outcome minima and a sharp distance exponent for a precise class of fixed universal apparatuses.
+
+The [outcome theorem](outcome_minima.md) determines how many probability coordinates must be retained. The [binary rigidity theorem](binary_rigidity.md) constrains the surviving two-qubit scalar, and the [sampling theorem](sampling_cost.md) quantifies its statistical cost. The [promise-gap theorem](promise_gap.md) addresses a different apparatus requirement. Their [resource interpretation](interpretation.md) connects these conclusions without identifying block size with total sampling cost.
+
 ## States, partial transpose, and distance
 
 Let $`\mathcal H=\mathbb C^{d_A}\otimes\mathbb C^{d_B}`$, with $`d_A,d_B\ge2`$. Write $`\mathcal D(\mathcal H)`$ for the density operators and $`\mathrm{SEP}`$ for their convex subset of separable states. The partial transpose $`\Gamma`$ acts on subsystem $`A`$ in a fixed product basis. Positivity of $`\rho^\Gamma`$ is basis independent under local changes of basis.
@@ -125,4 +133,17 @@ An exact classification theorem does not promise error-free classification from 
 
 ## Reading and verification
 
-The [manuscript account](../manuscript/main.md) develops the physical question and proof mechanism in one narrative. The individual science pages contain the complete analytical arguments. [Verification](../verification/README.md) states what the exact scripts check and what is established by proofs or imported theorems instead.
+The scientific route begins with the model above, follows the outcome hierarchy and its explicit apparatuses, and then connects binary rigidity to the statistical law. The distance-promise alternative and the resource interpretation complete the account.
+
+| Scientific component | Authoritative supporting account |
+|---|---|
+| Physical quadrant, outcome lower bounds and rank-sensitive criterion | [Outcome minima](outcome_minima.md) |
+| Fixed observables and POVM positivity | [Collective measurements](collective_measurements.md) |
+| Boundary continuation and four-copy necessity | [Binary rigidity](binary_rigidity.md) |
+| Uniform information lower bound, matching detector and unrestricted comparison | [Sampling cost](sampling_cost.md) |
+| Gap-dependent binary block size | [Promise-gap theorem](promise_gap.md) |
+| Connections, physical meaning and resource boundaries | [Readout interpretation](interpretation.md) |
+| Primary-source roles and bibliography | [Related work](../references/RELATED_WORK.md) and [references](../references/references.bib) |
+| Exact constructions and their reproduction | [Verification](../verification/README.md) |
+
+The finite calculations check the explicit physical seed, rank and equality cases, antisymmetric Schmidt certificate, rational filter, and collective-observable contractions. The general converses and asymptotic statements rely on their written proofs or cited primary sources, not on extrapolation from those checks.

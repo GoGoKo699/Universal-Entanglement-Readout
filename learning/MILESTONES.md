@@ -1,14 +1,12 @@
 # Project understanding map: 30 milestones
 
-This map organizes the scientific story of universal entanglement readout into exactly **30 milestones**. It is defined by the project and is common to every reader, including an LLM. Its targets and order do not depend on a learner's prior knowledge or challenge results.
+This map organizes the scientific story of universal entanglement readout into exactly **30 milestones**. It is defined by the project and is common to every reader, including an LLM. Its targets and order do not depend on a particular reader's prior knowledge.
 
 The allocation is **12 background/preliminaries milestones** and **18 narrative/innovation milestones**. The background connects quantum states and measurements to the analytic, algebraic, and statistical tools that the project needs. The narrative has more room because the physical corner, outcome constructions, binary rigidity, repetition bound, and promise-gap alternative must each become understandable before they can be joined into one resource account.
 
 The single educational anchor is John Watrous's *The Theory of Quantum Information*. The [Watrous bridge](WATROUS_BRIDGE.md) owns the source version, section mapping, notation translation, and locally supplied steps. It provides a targeted route into the work. The scientific pages linked below remain authoritative for exact statements and complete proofs.
 
-Each milestone gives an understanding target, earlier prerequisites, a conceptual evidence target, and direct source pointers. Evidence targets guide selection-only questions that require interpretation or a small inference; they are not requests for written proofs or a list of quiz answers. The suggested learning block is a project-based estimate within the allowed **1–3 rounds after a failed challenge**. The tutor chooses the actual block from the evidence of that attempt. The [coaching guide](COACHING.md) owns challenge, feedback, and retry rules.
-
-The map is separate from learner state. Reading a page, furnishing the repository, or accepting an explanation does not mark a milestone passed. Together the milestones support global understanding of the project, while specialist calculations remain in the proof files.
+Each milestone gives a central question, an understanding target, earlier prerequisites, a conceptual connection and direct source pointers. The connections identify interpretations and distinctions that make the target useful in the scientific argument. Together the milestones support global understanding of the project, while specialist calculations remain in the proof files.
 
 ## Route through the project
 
@@ -33,11 +31,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** None within this map.
 
-**Evidence target.** Recognize when correlations between nominal copies would invalidate the tensor-power probability formula, and distinguish increasing a local dimension from increasing the number of copies.
+**Conceptual connection.** Recognize when correlations between nominal copies would invalidate the tensor-power probability formula, and distinguish increasing a local dimension from increasing the number of copies.
 
 **Canonical sources.** [States and partial transpose](../science/model.md#states-partial-transpose-and-distance); [one fixed collective apparatus](../science/model.md#one-fixed-collective-apparatus).
-
-**Suggested learning block.** 1 round.
 
 ### M02 Separable states as a convex set
 
@@ -47,11 +43,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies).
 
-**Evidence target.** Infer why a scalar classifier must keep every entangled value outside the entire separable interval, even if the classical classifier is allowed an arbitrary decision rule.
+**Conceptual connection.** Infer why a scalar classifier must keep every entangled value outside the entire separable interval, even if the classical classifier is allowed an arbitrary decision rule.
 
 **Canonical sources.** [State domain](../science/model.md#states-partial-transpose-and-distance); [the image of the separable set](../science/binary_rigidity.md#31-the-image-of-the-separable-set).
-
-**Suggested learning block.** 1 round.
 
 ### M03 Partial transpose and the dimension boundary
 
@@ -61,11 +55,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M02](#m02-separable-states-as-a-convex-set).
 
-**Evidence target.** Identify which direction of the PPT implication survives in larger dimensions and why a formula involving $`\rho^\Gamma`$ does not instruct an experiment to apply partial transpose physically.
+**Conceptual connection.** Identify which direction of the PPT implication survives in larger dimensions and why a formula involving $`\rho^\Gamma`$ does not instruct an experiment to apply partial transpose physically.
 
 **Canonical sources.** [States, partial transpose, and distance](../science/model.md#states-partial-transpose-and-distance); [PPT source attribution](../references/RELATED_WORK.md#peres1996-and-ppt1996); [fixed linear maps](../science/collective_measurements.md#tensor-factors-and-fixed-linear-maps).
-
-**Suggested learning block.** 2 rounds.
 
 ### M04 Marginal rank and physical support
 
@@ -75,11 +67,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M03](#m03-partial-transpose-and-the-dimension-boundary).
 
-**Evidence target.** Recognize that a rank-two qutrit marginal leaves a two-qubit support, whereas a rank-one marginal forces a product state; avoid replacing an invertible-marginal promise with a global full-rank promise.
+**Conceptual connection.** Recognize that a rank-two qutrit marginal leaves a two-qubit support, whereas a rank-one marginal forces a product state; avoid replacing an invertible-marginal promise with a global full-rank promise.
 
 **Canonical sources.** [Rank promises in the model](../science/model.md#states-partial-transpose-and-distance); [singular qutrit marginal](../science/outcome_minima.md#singular-qutrit-marginal).
-
-**Suggested learning block.** 2 rounds.
 
 ### M05 A fixed POVM and its complete record
 
@@ -89,11 +79,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M02](#m02-separable-states-as-a-convex-set).
 
-**Evidence target.** Detect when a claimed binary protocol actually retains additional information, and distinguish one observed bit from its exactly known probability.
+**Conceptual connection.** Detect when a claimed binary protocol actually retains additional information, and distinguish one observed bit from its exactly known probability.
 
 **Canonical sources.** [One fixed collective apparatus](../science/model.md#one-fixed-collective-apparatus); [resource accounting](../science/model.md#what-each-resource-measures).
-
-**Suggested learning block.** 2 rounds.
 
 ### M06 Polynomial degree and collective realization
 
@@ -103,11 +91,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M05](#m05-a-fixed-povm-and-its-complete-record).
 
-**Evidence target.** Distinguish a polynomial statistic, its implementing observable, and a valid probability. Explain why finite-degree realization establishes existence without a useful sample margin or efficient circuit.
+**Conceptual connection.** Distinguish a polynomial statistic, its implementing observable, and a valid probability. Explain why finite-degree realization establishes existence without a useful sample margin or efficient circuit.
 
 **Canonical sources.** [Polynomial form of a fixed detector](../science/outcome_minima.md#polynomial-form-of-a-fixed-detector); [general polynomial-to-observable lemma](../science/collective_measurements.md#general-polynomial-to-observable-lemma); [representation attribution](../references/RELATED_WORK.md#brun2004-and-leifer2004).
-
-**Suggested learning block.** 2 rounds.
 
 ### M07 Spectral coefficients and antisymmetric observables
 
@@ -117,11 +103,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M03](#m03-partial-transpose-and-the-dimension-boundary), [M06](#m06-polynomial-degree-and-collective-realization).
 
-**Evidence target.** Infer why a degree-four statistic can share a six-copy block through identity padding, and why differentiating a six-factor determinant contraction produces six contributions.
+**Conceptual connection.** Infer why a degree-four statistic can share a six-copy block through identity padding, and why differentiating a six-factor determinant contraction produces six contributions.
 
 **Canonical sources.** [Antisymmetric projectors and normalization](../science/collective_measurements.md#antisymmetric-projectors-and-normalization); [explicit six-copy observables](../science/collective_measurements.md#explicit-six-copy-observables); [characteristic coefficients](../science/promise_gap.md#3-a-characteristic-coefficient-gap).
-
-**Suggested learning block.** 2 rounds.
 
 ### M08 Distance and witness certificates
 
@@ -131,11 +115,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M02](#m02-separable-states-as-a-convex-set), [M03](#m03-partial-transpose-and-the-dimension-boundary).
 
-**Evidence target.** Distinguish a negative partial-transpose eigenvalue from the claimed distance value, and recognize why a statistical comparator need not be the closest separable state.
+**Conceptual connection.** Distinguish a negative partial-transpose eigenvalue from the claimed distance value, and recognize why a statistical comparator need not be the closest separable state.
 
 **Canonical sources.** [Distance convention](../science/model.md#states-partial-transpose-and-distance); [direct trace-distance comparison](../science/sampling_cost.md#21-a-direct-comparison-with-trace-distance); [a family with exact distance](../science/sampling_cost.md#22-a-family-attaining-the-fourth-power).
-
-**Suggested learning block.** 2 rounds.
 
 ### M09 Analytic geometry of a scalar image
 
@@ -145,11 +127,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M02](#m02-separable-states-as-a-convex-set), [M06](#m06-polynomial-degree-and-collective-realization).
 
-**Evidence target.** Separate assumptions on the continuous analytic statistic from assumptions on the unrestricted decision map, and identify which step would fail if only continuity were available.
+**Conceptual connection.** Separate assumptions on the continuous analytic statistic from assumptions on the unrestricted decision map, and identify which step would fail if only continuity were available.
 
 **Canonical sources.** [Scalar quadrant lemma](../science/outcome_minima.md#lemma-1-no-analytic-scalar-classifies-a-quadrant); [tangent constancy argument](../science/outcome_minima.md#lemma-2-constancy-on-the-physical-rank-four-stratum).
-
-**Suggested learning block.** 3 rounds.
 
 ### M10 Polynomial identities beyond a physical patch
 
@@ -159,11 +139,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M06](#m06-polynomial-degree-and-collective-realization), [M09](#m09-analytic-geometry-of-a-scalar-image).
 
-**Evidence target.** Recognize why a finite list of zero evaluations is insufficient, and why irreducibility cannot simply be presumed after an arbitrary affine restriction.
+**Conceptual connection.** Recognize why a finite list of zero evaluations is insufficient, and why irreducibility cannot simply be presumed after an arbitrary affine restriction.
 
 **Canonical sources.** [Rank-four polynomial continuation](../science/outcome_minima.md#lemma-3-polynomial-continuation-to-all-matrices-of-rank-at-most-four); [irreducibility on the trace-one space](../science/binary_rigidity.md#4-irreducibility-and-continuation-on-the-trace-one-space).
-
-**Suggested learning block.** 3 rounds.
 
 ### M11 Probability gaps and statistical evidence
 
@@ -173,11 +151,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M05](#m05-a-fixed-povm-and-its-complete-record), [M08](#m08-distance-and-witness-certificates).
 
-**Evidence target.** Recognize the different roles of a worst-case hard pair and a test valid on entire promised classes. Explain why changing the rare-outcome probability requires controlling the divergence denominator as well as the probability difference.
+**Conceptual connection.** Recognize the different roles of a worst-case hard pair and a test valid on entire promised classes. Explain why changing the rare-outcome probability requires controlling the divergence denominator as well as the probability difference.
 
 **Canonical sources.** [Statistical model](../science/sampling_cost.md#1-statistical-model-and-minimax-statement); [information-theoretic lower bound](../science/sampling_cost.md#4-information-theoretic-lower-bound); [frequency-threshold upper bound](../science/sampling_cost.md#5-matching-four-copy-upper-bound).
-
-**Suggested learning block.** 2 rounds.
 
 ### M12 The complete operational question
 
@@ -187,11 +163,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M04](#m04-marginal-rank-and-physical-support), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M10](#m10-polynomial-identities-beyond-a-physical-patch), [M11](#m11-probability-gaps-and-statistical-evidence).
 
-**Evidence target.** Assign a proposed protocol to the correct task and identify which model assumption is changed by a purity promise, a growing block, a retained setting label, or a marginal estimated before selecting a detector.
+**Conceptual connection.** Assign a proposed protocol to the correct task and identify which model assumption is changed by a purity promise, a growing block, a retained setting label, or a marginal estimated before selecting a detector.
 
 **Canonical sources.** [Model and exact claims](../science/model.md); [what each resource measures](../science/model.md#what-each-resource-measures).
-
-**Suggested learning block.** 2 rounds.
 
 ## Phase II: narrative/innovation
 
@@ -203,11 +177,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M03](#m03-partial-transpose-and-the-dimension-boundary), [M04](#m04-marginal-rank-and-physical-support), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M12](#m12-the-complete-operational-question).
 
-**Evidence target.** Explain why a rank-deficient partial transpose is compatible with a full-rank physical state and why the construction already lies inside the invertible-marginal domain.
+**Conceptual connection.** Explain why a rank-deficient partial transpose is compatible with a full-rank physical state and why the construction already lies inside the invertible-marginal domain.
 
 **Canonical sources.** [Full-rank physical seed](../science/outcome_minima.md#a-full-rank-physical-seed); [physical quadrant](../science/outcome_minima.md#a-physical-quadrant).
-
-**Suggested learning block.** 2 rounds.
 
 ### M14 Why one scalar cannot classify the corner
 
@@ -217,11 +189,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M09](#m09-analytic-geometry-of-a-scalar-image), [M13](#m13-a-physical-corner-with-two-entangling-directions).
 
-**Evidence target.** Explain why extra finite copies or a discontinuous classical decision map cannot remove this scalar collision, and why the result excludes two outcomes even under the full-rank promise.
+**Conceptual connection.** Explain why extra finite copies or a discontinuous classical decision map cannot remove this scalar collision, and why the result excludes two outcomes even under the full-rank promise.
 
 **Canonical sources.** [Scalar quadrant lemma](../science/outcome_minima.md#lemma-1-no-analytic-scalar-classifies-a-quadrant); [physical application](../science/outcome_minima.md#a-physical-quadrant).
-
-**Suggested learning block.** 2 rounds.
 
 ### M15 Why two statistics must become locally constant
 
@@ -231,11 +201,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M09](#m09-analytic-geometry-of-a-scalar-image), [M14](#m14-why-one-scalar-cannot-classify-the-corner).
 
-**Evidence target.** Identify the contradiction that forces both statistics to be constant on a connected open stratum patch. Distinguish the two-dimensional slice used in the proof from the full normal space of the rank-four stratum.
+**Conceptual connection.** Identify the contradiction that forces both statistics to be constant on a connected open stratum patch. Distinguish the two-dimensional slice used in the proof from the full normal space of the rank-four stratum.
 
 **Canonical sources.** [Constancy on the physical rank-four stratum](../science/outcome_minima.md#lemma-2-constancy-on-the-physical-rank-four-stratum).
-
-**Suggested learning block.** 3 rounds.
 
 ### M16 The singular state reached by continuation
 
@@ -245,11 +213,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M10](#m10-polynomial-identities-beyond-a-physical-patch), [M15](#m15-why-two-statistics-must-become-locally-constant).
 
-**Evidence target.** Explain why the Bell state's singular qutrit marginal matters: it completes the unrestricted lower bound while remaining outside the invertible-marginal promise. Translate the two-coordinate obstruction into a requirement of at least four outcomes.
+**Conceptual connection.** Explain why the Bell state's singular qutrit marginal matters: it completes the unrestricted lower bound while remaining outside the invertible-marginal promise. Translate the two-coordinate obstruction into a requirement of at least four outcomes.
 
 **Canonical sources.** [Polynomial continuation](../science/outcome_minima.md#lemma-3-polynomial-continuation-to-all-matrices-of-rank-at-most-four); [completion of the lower bound](../science/outcome_minima.md#completion-of-the-lower-bound).
-
-**Suggested learning block.** 3 rounds.
 
 ### M17 Two statistics under an invertible marginal
 
@@ -259,11 +225,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M04](#m04-marginal-rank-and-physical-support), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M12](#m12-the-complete-operational-question).
 
-**Evidence target.** Interpret the sign branches, including an entangled state with $`f\gt0,g=0`$, and explain why whitening is a proof operation that supplies no hidden state estimate to the apparatus.
+**Conceptual connection.** Interpret the sign branches, including an entangled state with $`f\gt0,g=0`$, and explain why whitening is a proof operation that supplies no hidden state estimate to the apparatus.
 
 **Canonical sources.** [Three explicit statistics](../science/outcome_minima.md#three-explicit-statistics-give-a-complete-criterion); [invertible qutrit marginal](../science/outcome_minima.md#invertible-qutrit-marginal); [equality cases](../science/outcome_minima.md#equality-cases-and-verification).
-
-**Suggested learning block.** 3 rounds.
 
 ### M18 The third statistic on the marginal boundary
 
@@ -273,11 +237,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M04](#m04-marginal-rank-and-physical-support), [M16](#m16-the-singular-state-reached-by-continuation), [M17](#m17-two-statistics-under-an-invertible-marginal).
 
-**Evidence target.** Explain how $`h`$ resolves a collision that $`f,g`$ cannot resolve, and why a rule checked only at generic full rank would miss a load-bearing part of the theorem.
+**Conceptual connection.** Explain how $`h`$ resolves a collision that $`f,g`$ cannot resolve, and why a rule checked only at generic full rank would miss a load-bearing part of the theorem.
 
 **Canonical sources.** [Singular qutrit marginal](../science/outcome_minima.md#singular-qutrit-marginal); [equality cases](../science/outcome_minima.md#equality-cases-and-verification); [complete criterion](../science/outcome_minima.md#three-explicit-statistics-give-a-complete-criterion).
-
-**Suggested learning block.** 2 rounds.
 
 ### M19 One fixed six-copy measurement
 
@@ -287,11 +249,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M06](#m06-polynomial-degree-and-collective-realization), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M18](#m18-the-third-statistic-on-the-marginal-boundary).
 
-**Evidence target.** Explain why the construction needs neither a physical partial transpose nor prior knowledge of $`B`$, and why omitting $`h`$ permits a three-outcome POVM under the rank promise. Distinguish a positivity proof from checks on selected input states.
+**Conceptual connection.** Explain why the construction needs neither a physical partial transpose nor prior knowledge of $`B`$, and why omitting $`h`$ permits a three-outcome POVM under the rank promise. Distinguish a positivity proof from checks on selected input states.
 
 **Canonical sources.** [Explicit observables](../science/collective_measurements.md#explicit-six-copy-observables); [norm certificates](../science/collective_measurements.md#certified-operator-norm-bounds); [concrete POVMs](../science/collective_measurements.md#a-concrete-four-outcome-povm).
-
-**Suggested learning block.** 3 rounds.
 
 ### M20 The attained outcome hierarchy
 
@@ -301,11 +261,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M14](#m14-why-one-scalar-cannot-classify-the-corner), [M16](#m16-the-singular-state-reached-by-continuation), [M19](#m19-one-fixed-six-copy-measurement).
 
-**Evidence target.** State the matching lower and upper sides with their domains: lower bounds allow every finite block; six copies suffice for the qubit–qutrit constructions; four-outcome sufficiency is established only in $`2\times3`$ and its exchanged version.
+**Conceptual connection.** State the matching lower and upper sides with their domains: lower bounds allow every finite block; six copies suffice for the qubit–qutrit constructions; four-outcome sufficiency is established only in $`2\times3`$ and its exchanged version.
 
 **Canonical sources.** [R1 in the model](../science/model.md#r1-minimum-outcome-counts); [attainment and dimensional consequences](../science/outcome_minima.md#attainment-and-dimensional-consequences); [two-qubit determinant criterion](../science/binary_rigidity.md#2-the-two-qubit-determinant-criterion); [original determinant construction](../references/RELATED_WORK.md#augusiak2008).
-
-**Suggested learning block.** 2 rounds.
 
 ### M21 A constant probability on the two-qubit boundary
 
@@ -315,11 +273,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M09](#m09-analytic-geometry-of-a-scalar-image), [M20](#m20-the-attained-outcome-hierarchy).
 
-**Evidence target.** Explain why the detector's universality on all mixed states constrains its values near a full-rank boundary, even when the later hard statistical inputs are pure.
+**Conceptual connection.** Explain why the detector's universality on all mixed states constrains its values near a full-rank boundary, even when the later hard statistical inputs are pure.
 
 **Canonical sources.** [Separable scalar image](../science/binary_rigidity.md#31-the-image-of-the-separable-set); [explicit smooth boundary point](../science/binary_rigidity.md#32-an-explicit-smooth-boundary-point).
-
-**Suggested learning block.** 2 rounds.
 
 ### M22 Determinant divisibility and four-copy necessity
 
@@ -329,11 +285,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M10](#m10-polynomial-identities-beyond-a-physical-patch), [M21](#m21-a-constant-probability-on-the-two-qubit-boundary).
 
-**Evidence target.** Explain why all determinant-zero states share $`c`$, why $`0\lt c\lt1`$ follows from a nontrivial effect and a full-rank state, and why an arbitrary higher-degree quotient need not yield a universal detector.
+**Conceptual connection.** Explain why all determinant-zero states share $`c`$, why $`0\lt c\lt1`$ follows from a nontrivial effect and a full-rank state, and why an arbitrary higher-degree quotient need not yield a universal detector.
 
 **Canonical sources.** [R2 statement](../science/binary_rigidity.md#r2-rigidity-and-minimum-block-size); [irreducibility and divisibility](../science/binary_rigidity.md#4-irreducibility-and-continuation-on-the-trace-one-space); [scope of the quotient condition](../science/binary_rigidity.md#8-scope).
-
-**Suggested learning block.** 3 rounds.
 
 ### M23 A feasible and normalized binary detector
 
@@ -343,11 +297,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M22](#m22-determinant-divisibility-and-four-copy-necessity).
 
-**Evidence target.** Distinguish uniqueness after copy-permutation averaging from uniqueness of all implementations. Interpret the optimal affine scale as a local sensitivity statement and four-copy sufficiency, without inferring a global finite-sample optimum.
+**Conceptual connection.** Distinguish uniqueness after copy-permutation averaging from uniqueness of all implementations. Interpret the optimal affine scale as a local sensitivity statement and four-copy sufficiency, without inferring a global finite-sample optimum.
 
 **Canonical sources.** [Four-copy observable](../science/binary_rigidity.md#5-a-concrete-four-copy-observable); [spectrum and normalization](../science/binary_rigidity.md#6-spectrum-and-binary-normalization); [feasible probabilities](../science/binary_rigidity.md#7-which-four-copy-probabilities-are-physically-feasible).
-
-**Suggested learning block.** 3 rounds.
 
 ### M24 Weak entanglement and fourth-order sensitivity
 
@@ -357,11 +309,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M08](#m08-distance-and-witness-certificates), [M22](#m22-determinant-divisibility-and-four-copy-necessity), [M23](#m23-a-feasible-and-normalized-binary-detector).
 
-**Evidence target.** Explain why this pure family is a valid hard instance for a detector required to work on all mixed states. Distinguish forced vanishing through third order from a claim that every effect has exactly fourth-order variation.
+**Conceptual connection.** Explain why this pure family is a valid hard instance for a detector required to work on all mixed states. Distinguish forced vanishing through third order from a claim that every effect has exactly fourth-order variation.
 
 **Canonical sources.** [Hard family and exact distance](../science/sampling_cost.md#22-a-family-attaining-the-fourth-power); [fourth-order flatness](../science/sampling_cost.md#32-fourth-order-flatness-along-the-family-in-8).
-
-**Suggested learning block.** 2 rounds.
 
 ### M25 A uniform repetition lower bound
 
@@ -371,11 +321,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M11](#m11-probability-gaps-and-statistical-evidence), [M21](#m21-a-constant-probability-on-the-two-qubit-boundary), [M24](#m24-weak-entanglement-and-fourth-order-sensitivity).
 
-**Evidence target.** Identify why an effect-dependent bound on $`q`$ alone would be insufficient for minimax optimization. Explain why an effect chosen using $`\delta,\eta`$ remains covered when it is globally universal and $`k`$ is fixed.
+**Conceptual connection.** Identify why an effect-dependent bound on $`q`$ alone would be insufficient for minimax optimization. Explain why an effect chosen using $`\delta,\eta`$ remains covered when it is globally universal and $`k`$ is fixed.
 
 **Canonical sources.** [Uniform probability bound](../science/sampling_cost.md#3-a-probability-bound-uniform-over-all-universal-effects); [information lower bound](../science/sampling_cost.md#4-information-theoretic-lower-bound); [explicit uniform constants](../science/sampling_cost.md#r3-uniform-repetition-bounds).
-
-**Suggested learning block.** 3 rounds.
 
 ### M26 The sharp statistical law and its comparison
 
@@ -385,11 +333,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M08](#m08-distance-and-witness-certificates), [M23](#m23-a-feasible-and-normalized-binary-detector), [M25](#m25-a-uniform-repetition-lower-bound).
 
-**Evidence target.** Explain the architectural cost of exact universal binary readout at fixed $`k`$, with total copies $`kn`$. Distinguish the best rate in this class from the behavior of every effect and from an optimal tradeoff when $`k`$ grows with the gap.
+**Conceptual connection.** Explain the architectural cost of exact universal binary readout at fixed $`k`$, with total copies $`kn`$. Distinguish the best rate in this class from the behavior of every effect and from an optimal tradeoff when $`k`$ grows with the gap.
 
 **Canonical sources.** [Determinant and distance](../science/sampling_cost.md#2-determinant-and-distance-to-separability); [matching upper bound](../science/sampling_cost.md#5-matching-four-copy-upper-bound); [unrestricted comparison](../science/sampling_cost.md#6-comparison-with-unrestricted-measurements); [theorem boundaries](../science/sampling_cost.md#7-boundaries-of-the-theorem).
-
-**Suggested learning block.** 3 rounds.
 
 ### M27 The block-size cost of a promise gap
 
@@ -399,11 +345,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M06](#m06-polynomial-degree-and-collective-realization), [M08](#m08-distance-and-witness-certificates), [M14](#m14-why-one-scalar-cannot-classify-the-corner), [M26](#m26-the-sharp-statistical-law-and-its-comparison).
 
-**Evidence target.** Explain why this task can admit a binary effect without contradicting R1. Distinguish the finite Boolean sign reduction from an assumed threshold classifier on the full continuum of states.
+**Conceptual connection.** Explain why this task can admit a binary effect without contradicting R1. Distinguish the finite Boolean sign reduction from an assumed threshold classifier on the full continuum of states.
 
 **Canonical sources.** [S1 and its task](../science/model.md#s1-binary-blocks-under-a-distance-promise); [physical distance certificate](../science/promise_gap.md#1-a-physical-quadrant-with-a-certified-distance); [two-majority lower bound](../science/promise_gap.md#2-lower-bound-from-two-majority-functions); [threshold-degree attribution](../references/RELATED_WORK.md#sherstov2013).
-
-**Suggested learning block.** 3 rounds.
 
 ### M28 A binary filter attaining the logarithmic block size
 
@@ -413,11 +357,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M06](#m06-polynomial-degree-and-collective-realization), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M27](#m27-the-block-size-cost-of-a-promise-gap).
 
-**Evidence target.** Join the construction and lower bound into S1. Explain why positive denominators preserve signs, why boundedness inside the transition interval matters, and why logarithmic block size supplies no logarithmic repetition or total-copy guarantee.
+**Conceptual connection.** Join the construction and lower bound into S1. Explain why positive denominators preserve signs, why boundedness inside the transition interval matters, and why logarithmic block size supplies no logarithmic repetition or total-copy guarantee.
 
 **Canonical sources.** [Characteristic-coefficient gap](../science/promise_gap.md#3-a-characteristic-coefficient-gap); [bounded rational filter](../science/promise_gap.md#4-an-explicit-bounded-rational-sign-filter); [polynomial realization](../science/promise_gap.md#5-clearing-denominators-and-realizing-one-binary-probability); [interpretation](../science/promise_gap.md#interpretation-and-exact-checks).
-
-**Suggested learning block.** 3 rounds.
 
 ### M29 Attribution and the strength of the evidence
 
@@ -427,11 +369,9 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M20](#m20-the-attained-outcome-hierarchy), [M23](#m23-a-feasible-and-normalized-binary-detector), [M26](#m26-the-sharp-statistical-law-and-its-comparison), [M28](#m28-a-binary-filter-attaining-the-logarithmic-block-size).
 
-**Evidence target.** Match a claim to its proof or imported source, state what the five verification modules actually establish, and avoid inferring universal correctness, experimental validation, external peer review, or exhaustive priority from finite checks and a focused literature comparison.
+**Conceptual connection.** Match a claim to its proof or imported source, state what the five verification modules actually establish, and avoid inferring universal correctness, experimental validation, external peer review, or exhaustive priority from finite checks and a focused literature comparison.
 
 **Canonical sources.** [Related work and attribution](../references/RELATED_WORK.md); [what is checked](../verification/README.md#what-is-checked); [what requires proofs or external sources](../verification/README.md#what-requires-proofs-or-external-sources); [scope of the novelty review](../references/RELATED_WORK.md#scope-of-the-novelty-review).
-
-**Suggested learning block.** 2 rounds.
 
 ### M30 The complete scientific story
 
@@ -441,8 +381,6 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M12](#m12-the-complete-operational-question), [M29](#m29-attribution-and-the-strength-of-the-evidence).
 
-**Evidence target.** Interpret a changed experimental assumption and identify which result still applies. Explain R1, R2, R3, and S1 together while keeping outcomes, coordinates, block size, repetitions, probability precision, rank promises, and attribution distinct.
+**Conceptual connection.** Interpret a changed experimental assumption and identify which result still applies. Explain R1, R2, R3, and S1 together while keeping outcomes, coordinates, block size, repetitions, probability precision, rank promises, and attribution distinct.
 
-**Canonical sources.** [Manuscript account](../manuscript/main.md); [model and exact claims](../science/model.md); [resource interpretation](../manuscript/main.md#6-interpretation-and-attribution).
-
-**Suggested learning block.** 2 rounds.
+**Canonical sources.** [Model and exact claims](../science/model.md); [connected scientific reading route](../science/model.md#reading-and-verification); [readout resources and interpretation](../science/interpretation.md).
