@@ -71,7 +71,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** What changes when the qutrit marginal loses rank?
 
-**Understanding target.** Distinguish global rank, partial-transpose rank, and marginal rank. Understand why $`B=\mathrm{Tr}_A\rho>0`$ is weaker than full rank of $`\rho`$, and why positivity confines $`\rho`$ to $`A\otimes\mathrm{supp}B`$ when $`B`$ is singular. This identifies a physically meaningful boundary of the state domain.
+**Understanding target.** Distinguish global rank, partial-transpose rank, and marginal rank. Understand why $`B=\mathrm{Tr}_A\rho\gt0`$ is weaker than full rank of $`\rho`$, and why positivity confines $`\rho`$ to $`A\otimes\mathrm{supp}B`$ when $`B`$ is singular. This identifies a physically meaningful boundary of the state domain.
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M03](#m03-partial-transpose-and-the-dimension-boundary).
 
@@ -259,7 +259,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M04](#m04-marginal-rank-and-physical-support), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M12](#m12-the-complete-operational-question).
 
-**Evidence target.** Interpret the sign branches, including an entangled state with $`f>0,g=0`$, and explain why whitening is a proof operation that supplies no hidden state estimate to the apparatus.
+**Evidence target.** Interpret the sign branches, including an entangled state with $`f\gt0,g=0`$, and explain why whitening is a proof operation that supplies no hidden state estimate to the apparatus.
 
 **Canonical sources.** [Three explicit statistics](../science/outcome_minima.md#three-explicit-statistics-give-a-complete-criterion); [invertible qutrit marginal](../science/outcome_minima.md#invertible-qutrit-marginal); [equality cases](../science/outcome_minima.md#equality-cases-and-verification).
 
@@ -297,7 +297,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How do the converses and constructions fit into one exact minimum?
 
-**Understanding target.** Assemble the minimum outcome counts: two for all two-qubit states, three for qubit–qutrit states with $`B>0`$, and four for all qubit–qutrit states. Place the established two-qubit determinant construction beside the new outcome argument. Understand restriction to a local $`2\times3`$ subspace as a lower-bound transfer to larger dimensions.
+**Understanding target.** Assemble the minimum outcome counts: two for all two-qubit states, three for qubit–qutrit states with $`B\gt0`$, and four for all qubit–qutrit states. Place the established two-qubit determinant construction beside the new outcome argument. Understand restriction to a local $`2\times3`$ subspace as a lower-bound transfer to larger dimensions.
 
 **Prerequisites.** [M14](#m14-why-one-scalar-cannot-classify-the-corner), [M16](#m16-the-singular-state-reached-by-continuation), [M19](#m19-one-fixed-six-copy-measurement).
 
@@ -329,7 +329,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Prerequisites.** [M10](#m10-polynomial-identities-beyond-a-physical-patch), [M21](#m21-a-constant-probability-on-the-two-qubit-boundary).
 
-**Evidence target.** Explain why all determinant-zero states share $`c`$, why $`0<c<1`$ follows from a nontrivial effect and a full-rank state, and why an arbitrary higher-degree quotient need not yield a universal detector.
+**Evidence target.** Explain why all determinant-zero states share $`c`$, why $`0\lt c\lt1`$ follows from a nontrivial effect and a full-rank state, and why an arbitrary higher-degree quotient need not yield a universal detector.
 
 **Canonical sources.** [R2 statement](../science/binary_rigidity.md#r2-rigidity-and-minimum-block-size); [irreducibility and divisibility](../science/binary_rigidity.md#4-irreducibility-and-continuation-on-the-trace-one-space); [scope of the quotient condition](../science/binary_rigidity.md#8-scope).
 
@@ -381,7 +381,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** What makes the repetition exponent sharp, and what restriction causes it?
 
-**Understanding target.** Combine the imported determinant–concurrence bound with the local trace-distance comparison to obtain $`|\det(\rho^\Gamma)|\ge\Delta^4`$. The normalized detector and a frequency threshold attain $`O(\delta^{-8}\log(1/\eta))`$ repetitions. Join this upper bound to M25 as R3 for fixed $`k\ge4`$, $`0<\delta\le1/2`$, and $`0<\eta\le1/4`$. Compare it with the $`\Theta(\delta^{-2}\log(1/\eta))`$ total-copy law for unrestricted two-qubit measurements.
+**Understanding target.** Combine the imported determinant–concurrence bound with the local trace-distance comparison to obtain $`|\det(\rho^\Gamma)|\ge\Delta^4`$. The normalized detector and a frequency threshold attain $`O(\delta^{-8}\log(1/\eta))`$ repetitions. Join this upper bound to M25 as R3 for fixed $`k\ge4`$, $`0\lt\delta\le1/2`$, and $`0\lt\eta\le1/4`$. Compare it with the $`\Theta(\delta^{-2}\log(1/\eta))`$ total-copy law for unrestricted two-qubit measurements.
 
 **Prerequisites.** [M08](#m08-distance-and-witness-certificates), [M23](#m23-a-feasible-and-normalized-binary-detector), [M25](#m25-a-uniform-repetition-lower-bound).
 
@@ -395,7 +395,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How does the qubit–qutrit obstruction change if a detector may ignore weak entanglement?
 
-**Understanding target.** Formulate S1 with no required decision on $`0<\Delta<\delta`$ and an exactly known binary probability. Use witnesses to certify the gap on the physical corner. Embed two independent Boolean majorities, convert arbitrary scalar postprocessing to a strict polynomial sign representation, and identify the imported threshold-degree theorem that yields an $`\Omega(\log(1/\delta))`$ block-size lower bound.
+**Understanding target.** Formulate S1 with no required decision on $`0\lt\Delta\lt\delta`$ and an exactly known binary probability. Use witnesses to certify the gap on the physical corner. Embed two independent Boolean majorities, convert arbitrary scalar postprocessing to a strict polynomial sign representation, and identify the imported threshold-degree theorem that yields an $`\Omega(\log(1/\delta))`$ block-size lower bound.
 
 **Prerequisites.** [M06](#m06-polynomial-degree-and-collective-realization), [M08](#m08-distance-and-witness-certificates), [M14](#m14-why-one-scalar-cannot-classify-the-corner), [M26](#m26-the-sharp-statistical-law-and-its-comparison).
 

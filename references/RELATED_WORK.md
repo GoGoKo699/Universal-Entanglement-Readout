@@ -29,7 +29,7 @@ Peres supplies necessity of positivity under partial transposition. The Horodeck
 This is the original universal four-copy determinant observable and the criterion
 
 ```math
-\rho\text{ is entangled}\quad\Longleftrightarrow\quad\det(\rho^\Gamma)<0
+\rho\text{ is entangled}\quad\Longleftrightarrow\quad\det(\rho^\Gamma)\lt0
 ```
 
 for two qubits. The paper also supplies the quantitative input used here: Eqs. (3) and (5) define $`\pi_2(\rho)=2|\det(\rho^\Gamma)|^{1/4}`$ on entangled states and prove $`C(\rho)\le\pi_2(\rho)`$, with continuity covering singular states. Its discussion asks about higher-dimensional universal collective observables.

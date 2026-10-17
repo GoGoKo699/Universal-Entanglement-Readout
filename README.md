@@ -12,7 +12,7 @@ Each run applies the same state-independent POVM to a fixed finite number of ind
 
 The four-copy two-qubit detector is [established prior work](references/RELATED_WORK.md#augusiak2008). The outcome lower bounds permit every finite block size, and the six-copy qubit–qutrit constructions are explicit upper bounds. The four-outcome lower bound also embeds into every other nontrivial bipartite dimension except $`2\times2`$; sufficiency of four outcomes is established here for $`2\times3`$.
 
-For exactly universal binary two-qubit detectors at any fixed block size $`k\ge4`$, the best worst-case repetition count for a half-trace-distance gap $`\delta`$ and error target $`0<\eta\le1/4`$ is
+For exactly universal binary two-qubit detectors at any fixed block size $`k\ge4`$, the best worst-case repetition count for a half-trace-distance gap $`\delta`$ and error target $`0\lt\eta\le1/4`$ is
 
 ```math
 n_{\mathrm{univ},k}(\delta,\eta)

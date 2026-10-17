@@ -80,7 +80,7 @@ H=(\sigma_y\otimes I_2)\rho^\Gamma(\sigma_y\otimes I_2).
 \qquad\text{(4)}
 ```
 
-If $`B`$ has rank one, positivity confines $`\rho`$ to $`\mathbb C^2\otimes\mathrm{supp}B`$, so $`\rho`$ is a product state. Otherwise $`B>0`$, and
+If $`B`$ has rank one, positivity confines $`\rho`$ to $`\mathbb C^2\otimes\mathrm{supp}B`$, so $`\rho`$ is a product state. Otherwise $`B\gt0`$, and
 
 ```math
 K=D^{-1/2}HD^{-1/2}=I_4-R,
@@ -88,7 +88,7 @@ K=D^{-1/2}HD^{-1/2}=I_4-R,
 R=D^{-1/2}\rho D^{-1/2}\ge0.
 ```
 
-Since $`\mathrm{Tr}_A R=I_2`$, one has $`\mathrm{Tr}K=2`$ and every eigenvalue of $`K`$ is at most one. If $`K`$ has a negative eigenvalue, its positive eigenvalues must sum to more than two. It must therefore have at least three positive eigenvalues. In dimension four this leaves exactly one negative eigenvalue, three positive eigenvalues, and no zero eigenvalues. Thus $`\det K<0`$. Congruence by $`D^{1/2}`$ preserves inertia and multiplies the determinant by a positive number, so $`\det H<0`$.
+Since $`\mathrm{Tr}_A R=I_2`$, one has $`\mathrm{Tr}K=2`$ and every eigenvalue of $`K`$ is at most one. If $`K`$ has a negative eigenvalue, its positive eigenvalues must sum to more than two. It must therefore have at least three positive eigenvalues. In dimension four this leaves exactly one negative eigenvalue, three positive eigenvalues, and no zero eigenvalues. Thus $`\det K\lt0`$. Congruence by $`D^{1/2}`$ preserves inertia and multiplies the determinant by a positive number, so $`\det H\lt0`$.
 
 Conversely, $`H\ge0`$ implies $`\det H\ge0`$. Combining this argument with (4) and the PPT criterion gives, on the entire state space including singular states,
 
@@ -124,7 +124,7 @@ Let $`p`$ be any polynomial whose scalar value classifies all states. Continuity
 p(\mathrm{SEP})=[a,b].
 ```
 
-No entangled state can have a probability in this interval. Also $`a<b`$: if $`a=b`$, the polynomial would be constant on a nonempty open subset of $`\mathcal A`$, hence constant on all of $`\mathcal A`$, which cannot classify the two classes.
+No entangled state can have a probability in this interval. Also $`a\lt b`$: if $`a=b`$, the polynomial would be constant on a nonempty open subset of $`\mathcal A`$, hence constant on all of $`\mathcal A`$, which cannot classify the two classes.
 
 ### 3.2. An explicit smooth boundary point
 
@@ -143,7 +143,7 @@ The spectrum of $`\tau`$ is
 \left\{\frac12,\frac16,\frac16,\frac16\right\},
 ```
 
-so $`\tau>0`$. If $`F`$ swaps the two qubits, then
+so $`\tau\gt0`$. If $`F`$ swaps the two qubits, then
 
 ```math
 \tau^\Gamma=\frac{I_4+F}{6}
@@ -165,7 +165,7 @@ the zero eigenvalue of $`\tau^\Gamma+tX^\Gamma`$ has derivative $`-3/4`$, while 
 =-\frac1{36}\ne0.
 ```
 
-The real implicit function theorem gives a connected smooth hypersurface patch $`\Sigma`$ of $`f=0`$ through $`\tau`$. Shrink the patch and its neighborhood so that $`\rho>0`$ and three eigenvalues of $`\rho^\Gamma`$ remain positive throughout that neighborhood. On $`\Sigma`$, the remaining eigenvalue is zero, so every state on the patch is separable. Negative values of that eigenvalue occur arbitrarily close to every point of $`\Sigma`$ and give physical entangled states.
+The real implicit function theorem gives a connected smooth hypersurface patch $`\Sigma`$ of $`f=0`$ through $`\tau`$. Shrink the patch and its neighborhood so that $`\rho\gt0`$ and three eigenvalues of $`\rho^\Gamma`$ remain positive throughout that neighborhood. On $`\Sigma`$, the remaining eigenvalue is zero, so every state on the patch is separable. Negative values of that eigenvalue occur arbitrarily close to every point of $`\Sigma`$ and give physical entangled states.
 
 For $`\sigma\in\Sigma`$, the number $`p(\sigma)`$ cannot lie in $`(a,b)`$, because continuity would place sufficiently nearby entangled probabilities in the same interval. Thus
 
@@ -230,7 +230,7 @@ for a polynomial $`q`$. The quotient has real coefficients because $`p-c`$ and $
 
 For a universal effect $`E`$, the polynomial is nonconstant, so $`q\ne0`$. This proves $`k\ge4`$ and (1). When $`k=4`$, $`q`$ is a nonzero constant, proving (2).
 
-Finally, the constant $`c`$ equals $`p_E(\tau)`$ with $`\tau>0`$. If $`c=0`$, positivity and full rank of $`\tau^{\otimes k}`$ force $`E=0`$. If $`c=1`$, they force $`E=I`$. Both possibilities are incompatible with universality. Therefore $`0<c<1`$, completing the necessity part of R2.
+Finally, the constant $`c`$ equals $`p_E(\tau)`$ with $`\tau\gt0`$. If $`c=0`$, positivity and full rank of $`\tau^{\otimes k}`$ force $`E=0`$. If $`c=1`$, they force $`E=I`$. Both possibilities are incompatible with universality. Therefore $`0\lt c\lt1`$, completing the necessity part of R2.
 
 An immediate consequence, used in [sampling_cost.md](sampling_cost.md), is that every determinant-zero density operator has probability $`c`$, including singular states far from the patch $`\Sigma`$.
 
@@ -304,7 +304,7 @@ K^2=12K,\qquad \mathrm{Tr}K=24.
 
 Because $`K\ge0`$, its only possible eigenvalues are zero and twelve, and exactly two eigenvalues equal twelve. The two nonzero squared Schmidt coefficients of $`|\Omega\rangle`$ are therefore $`1/2,1/2`$.
 
-For a pure bipartite state with Schmidt coefficients $`s_i`$, its partial transpose has eigenvalues $`s_i^2`$ and $`\pm s_i s_j`$ for $`i<j`$. This follows by diagonalizing the two-dimensional subspaces spanned by $`|ij\rangle`$ and $`|ji\rangle`$. Applied here, it gives
+For a pure bipartite state with Schmidt coefficients $`s_i`$, its partial transpose has eigenvalues $`s_i^2`$ and $`\pm s_i s_j`$ for $`i\lt j`$. This follows by diagonalizing the two-dimensional subspaces spanned by $`|ij\rangle`$ and $`|ji\rangle`$. Applied here, it gives
 
 ```math
 \mathrm{spec}W=

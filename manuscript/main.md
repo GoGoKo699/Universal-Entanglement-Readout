@@ -83,12 +83,12 @@ Here $`e_4`$ is the fourth elementary symmetric coefficient. These are polynomia
 
 ```math
 \rho\in\mathrm{SEP}\quad\Longleftrightarrow\quad
-(f>0\ \text{and}\ g>0)
+(f\gt0\ \text{and}\ g\gt0)
 \quad\text{or}\quad
-\bigl(f=0\ \text{and}\ [g>0\ \text{or}\ (g=0\ \text{and}\ h\ge0)]\bigr).
+\bigl(f=0\ \text{and}\ [g\gt0\ \text{or}\ (g=0\ \text{and}\ h\ge0)]\bigr).
 ```
 
-When $`B>0`$, only $`f,g`$ are needed: the second branch reduces to $`f=0,g\ge0`$. To see why these two quantities work under the promise, set $`K=D^{-1/2}HD^{-1/2}`$. Then $`K\le I`$ and $`\mathrm{Tr}K=3`$. If $`K`$ has any negative eigenvalue, it must have at least four positive eigenvalues. The determinant distinguishes one negative eigenvalue at full rank. The identity
+When $`B\gt0`$, only $`f,g`$ are needed: the second branch reduces to $`f=0,g\ge0`$. To see why these two quantities work under the promise, set $`K=D^{-1/2}HD^{-1/2}`$. Then $`K\le I`$ and $`\mathrm{Tr}K=3`$. If $`K`$ has any negative eigenvalue, it must have at least four positive eigenvalues. The determinant distinguishes one negative eigenvalue at full rank. The identity
 
 ```math
 g=(\det B)^2e_5(K)
@@ -103,13 +103,13 @@ e_5(K)=\left(\prod_i c_i\right)
 
 If $`B`$ is singular, positivity confines $`\rho`$ to a local two-qubit support or a product support. In the former case $`f=g=0`$, while $`h`$ is the determinant criterion on that two-qubit block. This is the reason to retain the third quantity for unrestricted inputs.
 
-The strict sign of $`g`$ in the branch $`f>0`$ matters. An exact entangled example has
+The strict sign of $`g`$ in the branch $`f\gt0`$ matters. An exact entangled example has
 
 ```math
 (f,g,h)=\left(\frac1{4096},0,-\frac1{64}\right).
 ```
 
-Replacing $`g>0`$ by $`g\ge0`$ would misclassify it. The full proof, physical seed, and equality example are given in [Outcome minima](../science/outcome_minima.md).
+Replacing $`g\gt0`$ by $`g\ge0`$ would misclassify it. The full proof, physical seed, and equality example are given in [Outcome minima](../science/outcome_minima.md).
 
 The three quantities can be measured by one state-independent POVM on six copies. Antisymmetrizers represent the elementary coefficients, and the self-adjoint qubit reduction map transfers $`H`$ and $`D`$ to observable operators. The resulting observables $`W_f,W_g,W_h`$ have certified bounds $`1,12,\sqrt{15}`$ on their operator norms. In particular,
 
@@ -118,7 +118,7 @@ E_i=\frac I4+\frac{W_i}{80}\quad(i=f,g,h),\qquad
 E_4=\frac I4-\frac{W_f+W_g+W_h}{80}
 ```
 
-are strictly positive and sum to identity. Their probabilities recover $`f,g,h`$ by known affine transformations. [Collective measurements](../science/collective_measurements.md) gives the explicit permutation formulas and a three-outcome version for $`B>0`$. Whitening is used only in the proof; it is not a state-dependent operation in this apparatus.
+are strictly positive and sum to identity. Their probabilities recover $`f,g,h`$ by known affine transformations. [Collective measurements](../science/collective_measurements.md) gives the explicit permutation formulas and a three-outcome version for $`B\gt0`$. Whitening is used only in the proof; it is not a state-dependent operation in this apparatus.
 
 ## 3. The binary exception is rigid
 
@@ -136,7 +136,7 @@ The determinant of a generic matrix is irreducible. The property remains true on
 
 ## 4. Exact universality costs repetitions
 
-**Result R3.** Fix a finite $`k\ge4`$, a gap $`0<\delta\le1/2`$, and an error target $`0<\eta\le1/4`$. Among binary effects that remain exactly universal on all two-qubit mixed states, the minimum fixed number of independent repetitions required to distinguish $`\mathrm{SEP}`$ from $`\Delta(\rho)\ge\delta`$ is
+**Result R3.** Fix a finite $`k\ge4`$, a gap $`0\lt\delta\le1/2`$, and an error target $`0\lt\eta\le1/4`$. Among binary effects that remain exactly universal on all two-qubit mixed states, the minimum fixed number of independent repetitions required to distinguish $`\mathrm{SEP}`$ from $`\Delta(\rho)\ge\delta`$ is
 
 ```math
 n_{\mathrm{univ},k}(\delta,\eta)
@@ -151,7 +151,7 @@ Consider
 
 ```math
 |\psi_\theta\rangle=\cos\theta|00\rangle+\sin\theta|11\rangle,
-\qquad 0<\theta\le\frac\pi4.
+\qquad 0\lt\theta\le\frac\pi4.
 ```
 
 Its exact distance to the separable set is $`\delta=\sin\theta\cos\theta`$, and
@@ -160,7 +160,7 @@ Its exact distance to the separable set is $`\delta=\sin\theta\cos\theta`$, and
 \det(\rho_\theta^\Gamma)=-\delta^4.
 ```
 
-R2 forces the probability variation away from the product limit to vanish through third order; some effects can vanish to higher order. A full-rank separable boundary state has the same probability $`c`$, which forces $`0<c<1`$ for a nontrivial effect. Positivity and a fourth-derivative bound give, uniformly over the universal effects,
+R2 forces the probability variation away from the product limit to vanish through third order; some effects can vanish to higher order. A full-rank separable boundary state has the same probability $`c`$, which forces $`0\lt c\lt1`$ for a nontrivial effect. Positivity and a fourth-derivative bound give, uniformly over the universal effects,
 
 ```math
 |p_E(\rho_\theta)-c|
@@ -196,7 +196,7 @@ The construction uses $`4n`$ copies, or $`kn`$ copies if padded to a larger fixe
 
 ## 5. What changes under a gap-only requirement
 
-For qubit–qutrit states, exact binary universality is impossible for every finite block. If a detector may ignore all states with $`0<\Delta(\rho)<\delta`$, a finite binary block becomes possible. The supporting [Result S1](../science/promise_gap.md) gives
+For qubit–qutrit states, exact binary universality is impossible for every finite block. If a detector may ignore all states with $`0\lt\Delta(\rho)\lt\delta`$, a finite binary block becomes possible. The supporting [Result S1](../science/promise_gap.md) gives
 
 ```math
 k_{\mathrm{gap}}(\delta)=\Theta\!\left(\log\frac1\delta\right)

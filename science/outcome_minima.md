@@ -58,7 +58,7 @@ decision function used below.
 
 ### Lemma 1: no analytic scalar classifies a quadrant
 
-Let $`r>0`$. There is no real-analytic scalar $`p`$ on a neighborhood of
+Let $`r\gt0`$. There is no real-analytic scalar $`p`$ on a neighborhood of
 $`[-r,r]^2`$ whose value determines, throughout that square, whether
 $`s\ge0`$ and $`t\ge0`$.
 
@@ -66,13 +66,13 @@ $`s\ge0`$ and $`t\ge0`$.
 interval $`[a,b]`$. Correct classification would require every point in the square
 outside that quadrant to have its $`p`$ value outside $`[a,b]`$.
 
-For $`0<t<r`$, the point $`(0,t)`$ belongs to the quadrant and is approached by
-points $`(s,t)`$ with $`s<0`$. If $`p(0,t)`$ were in the interior of $`[a,b]`$,
+For $`0\lt t\lt r`$, the point $`(0,t)`$ belongs to the quadrant and is approached by
+points $`(s,t)`$ with $`s\lt0`$. If $`p(0,t)`$ were in the interior of $`[a,b]`$,
 continuity would put some of these exterior points in the same interval.
 Consequently $`p(0,t)\in\{a,b\}`$. A continuous map from the connected interval
-$`0<t<r`$ to this at-most-two-point set is constant. The one-variable analytic
+$`0\lt t\lt r`$ to this at-most-two-point set is constant. The one-variable analytic
 identity theorem extends that constancy across $`t=0`$ to negative $`t`$. An
-exterior point $`(0,t)`$ with $`t<0`$ then has the same value as a quadrant point,
+exterior point $`(0,t)`$ with $`t\lt0`$ then has the same value as a quadrant point,
 which contradicts classification. The argument includes $`a=b`$. $`\square`$
 
 ### A full-rank physical seed
@@ -111,7 +111,7 @@ R=\begin{pmatrix}
 ```
 
 Its trace is $`130`$. Its leading principal minors are
-$`6,44,496,2304,5120,9216`$, so $`R>0`$ by Sylvester's criterion. The vectors
+$`6,44,496,2304,5120,9216`$, so $`R\gt0`$ by Sylvester's criterion. The vectors
 $`v(z)=(1,z,z^2,z,z^2,z^3)`$ span a four-dimensional space: the upper bound follows
 from their polynomial form, and four distinct choices of $`z`$ give a Vandermonde
 matrix of rank four. Thus $`X`$ has rank four. An orthonormal basis of its kernel
@@ -133,7 +133,7 @@ Let $`P_j=(u_ju_j^\dagger)^\Gamma`$ and define
 \rho(s,t)=(1-s-t)\rho_*+sP_1+tP_2.
 ```
 
-This Hermitian matrix has trace one. Since $`\rho_*>0`$, it remains a density
+This Hermitian matrix has trace one. Since $`\rho_*\gt0`$, it remains a density
 matrix on a sufficiently small square about $`(0,0)`$. Its partial transpose is
 
 ```math
@@ -169,7 +169,7 @@ states. Consider the real-analytic manifold
 
 ```math
 M=\{\Lambda:\mathrm{Tr}\Lambda=1,\ \Lambda\ge0,
-\ \mathrm{rank}\Lambda=4,\ \Lambda^\Gamma>0\}.
+\ \mathrm{rank}\Lambda=4,\ \Lambda^\Gamma\gt0\}.
 ```
 
 The seed shows that $`M`$ is nonempty. Positivity of the four nonzero eigenvalues
@@ -191,7 +191,7 @@ L(v,0,0)=
 \begin{pmatrix}
 A(v)&C(v)\\
 C(v)^\dagger&C(v)^\dagger A(v)^{-1}C(v)
-\end{pmatrix},\qquad A(v)>0.
+\end{pmatrix},\qquad A(v)\gt0.
 ```
 
 Choose this representative with trace one at $`s=t=0`$, and extend it by
@@ -211,7 +211,7 @@ C(v)^\dagger&C(v)^\dagger A(v)^{-1}C(v)+\mathrm{diag}(s,t)
 ```
 
 The denominator remains positive. Strict positivity at the origin implies
-$`\widetilde\rho(v,s,t)>0`$ throughout a small real neighborhood. By the Schur
+$`\widetilde\rho(v,s,t)\gt0`$ throughout a small real neighborhood. By the Schur
 complement,
 
 ```math
@@ -310,15 +310,15 @@ Consequently $`H`$ and $`\rho^\Gamma`$ have the same spectrum. The complete rule
 \boxed{
 \rho\in\mathrm{SEP}
 \ \Longleftrightarrow\,
-(f>0\ \text{and}\ g>0)
+(f\gt0\ \text{and}\ g\gt0)
 \ \text{or}\,
-\bigl(f=0\ \text{and}\ [g>0\ \text{or}\ (g=0\ \text{and}\ h\ge0)]\bigr).
+\bigl(f=0\ \text{and}\ [g\gt0\ \text{or}\ (g=0\ \text{and}\ h\ge0)]\bigr).
 }
 ```
 
 ### Invertible qutrit marginal
 
-Assume $`B>0`$, and introduce the congruent matrix
+Assume $`B\gt0`$, and introduce the congruent matrix
 
 ```math
 K=D^{-1/2}HD^{-1/2}=I_6-R_0,\qquad
@@ -353,7 +353,7 @@ The adjugate derivative identity is polynomial, so this step also holds when
 $`H`$ is singular.
 
 For two negative eigenvalues, write the spectrum of $`K`$ as
-$`-a,-b,c_1,c_2,c_3,c_4`$, with $`a,b,c_i>0`$. The trace condition and $`c_i\le1`$
+$`-a,-b,c_1,c_2,c_3,c_4`$, with $`a,b,c_i\gt0`$. The trace condition and $`c_i\le1`$
 imply $`\sum_i c_i=3+a+b`$ and hence $`c_i\ge a+b`$ for each $`i`$. Therefore
 
 ```math
@@ -371,21 +371,21 @@ The complete full-marginal-rank classification follows:
 
 | Inertia or positivity of $`H`$ | $`f`$ | $`g`$ | Decision |
 |---|---:|---:|---|
-| Positive definite | $`>0`$ | $`>0`$ | Separable |
-| PPT, rank five | $`0`$ | $`>0`$ | Separable |
+| Positive definite | $`\gt0`$ | $`\gt0`$ | Separable |
+| PPT, rank five | $`0`$ | $`\gt0`$ | Separable |
 | PPT, rank at most four | $`0`$ | $`0`$ | Separable |
-| One negative, rank six | $`<0`$ | Unrestricted | Entangled |
-| One negative, rank five | $`0`$ | $`<0`$ | Entangled |
-| Two negatives, rank six | $`>0`$ | $`\le0`$ | Entangled |
+| One negative, rank six | $`\lt0`$ | Unrestricted | Entangled |
+| One negative, rank five | $`0`$ | $`\lt0`$ | Entangled |
+| Two negatives, rank six | $`\gt0`$ | $`\le0`$ | Entangled |
 
 For rank five, $`e_5(K)`$ is the product of the five nonzero eigenvalues. For rank
-at most four it vanishes, and the trace argument excludes NPT when $`B>0`$.
+at most four it vanishes, and the trace argument excludes NPT when $`B\gt0`$.
 Thus $`f,g`$ alone suffice on this promise:
 
 ```math
 \rho\in\mathrm{SEP}
 \quad\Longleftrightarrow\quad
-(f>0\text{ and }g>0)\text{ or }(f=0\text{ and }g\ge0).
+(f\gt0\text{ and }g\gt0)\text{ or }(f=0\text{ and }g\ge0).
 ```
 
 ### Singular qutrit marginal
@@ -410,7 +410,7 @@ the displayed criterion for every qubit–qutrit state.
 
 ### Equality cases and verification
 
-The strict condition $`g>0`$ when $`f>0`$ is necessary. Define
+The strict condition $`g\gt0`$ when $`f\gt0`$ is necessary. Define
 
 ```math
 \rho=\frac14\left[

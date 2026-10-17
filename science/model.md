@@ -20,7 +20,7 @@ The distance used in the statistical statements is
 \Delta(\rho)=\inf_{\sigma\in\mathrm{SEP}}\frac12\Vert\rho-\sigma\Vert_1.
 ```
 
-The factor $`1/2`$ is part of the definition. For a qubit–qutrit state, write $`B=\mathrm{Tr}_A\rho`$ for its qutrit marginal. The promise $`B>0`$ means that this $`3\times3`$ matrix is invertible. A globally full-rank state satisfies this promise, but a singular global state can also satisfy it.
+The factor $`1/2`$ is part of the definition. For a qubit–qutrit state, write $`B=\mathrm{Tr}_A\rho`$ for its qutrit marginal. The promise $`B\gt0`$ means that this $`3\times3`$ matrix is invertible. A globally full-rank state satisfies this promise, but a singular global state can also satisfy it.
 
 ## One fixed collective apparatus
 
@@ -57,7 +57,7 @@ The minimum is taken over every finite $`k`$, every fixed state-independent POVM
 | State domain | Minimum retained coordinates | Minimum outcomes | Explicit sufficient block size |
 |---|---:|---:|---:|
 | All two-qubit states | 1 | 2 | 4 copies |
-| Qubit–qutrit states with $`B>0`$ | 2 | 3 | 6 copies |
+| Qubit–qutrit states with $`B\gt0`$ | 2 | 3 | 6 copies |
 | All qubit–qutrit states | 3 | 4 | 6 copies |
 
 The positive four-copy two-qubit construction is established prior work [Augusiak2008](../references/RELATED_WORK.md#augusiak2008). Its copy optimality within the full class of exactly universal binary apparatuses follows from R2. The six-copy entries are constructive upper bounds; their copy optimality is not part of R1.
@@ -86,14 +86,14 @@ Fix $`k\ge4`$. An experiment chooses an effect that is exactly universal on **al
 H_0:\rho\in\mathrm{SEP},\qquad H_1:\Delta(\rho)\ge\delta
 ```
 
-with $`0<\delta\le1/2`$ and each worst-case error probability at most $`\eta`$, where $`0<\eta\le1/4`$. The effect and the classical test may depend on $`\delta`$ and $`\eta`$, provided the effect remains exactly universal on all mixed states. Let $`n_{\mathrm{univ},k}(\delta,\eta)`$ be the minimum possible fixed number of repetitions under these requirements. Then, as $`\delta\downarrow0`$,
+with $`0\lt\delta\le1/2`$ and each worst-case error probability at most $`\eta`$, where $`0\lt\eta\le1/4`$. The effect and the classical test may depend on $`\delta`$ and $`\eta`$, provided the effect remains exactly universal on all mixed states. Let $`n_{\mathrm{univ},k}(\delta,\eta)`$ be the minimum possible fixed number of repetitions under these requirements. Then, as $`\delta\downarrow0`$,
 
 ```math
 n_{\mathrm{univ},k}(\delta,\eta)
 =\Theta_k\!\left(\delta^{-8}\log\frac1\eta\right).
 ```
 
-The constants are uniform over the chosen effects at fixed $`k`$. The lower-bound constant can depend strongly on $`k`$; this is not a sharp joint tradeoff between block size and distance. The total number of input copies in this model is $`kn`$. A four-copy effect, padded with identities when $`k>4`$, achieves
+The constants are uniform over the chosen effects at fixed $`k`$. The lower-bound constant can depend strongly on $`k`$; this is not a sharp joint tradeoff between block size and distance. The total number of input copies in this model is $`kn`$. A four-copy effect, padded with identities when $`k\gt4`$, achieves
 
 ```math
 n\le\left\lceil2\delta^{-8}\log\frac1\eta\right\rceil.
@@ -103,7 +103,7 @@ Full proof and normalization: [Sampling cost](sampling_cost.md).
 
 ## S1. Binary blocks under a distance promise
 
-A different task allows a qubit–qutrit apparatus that need only distinguish every separable state from every state with $`\Delta(\rho)\ge\delta`$. Its behavior on $`0<\Delta(\rho)<\delta`$ is unrestricted, and the effect may depend on $`\delta`$. When the binary probability can be known to arbitrary precision, the minimum block size obeys
+A different task allows a qubit–qutrit apparatus that need only distinguish every separable state from every state with $`\Delta(\rho)\ge\delta`$. Its behavior on $`0\lt\Delta(\rho)\lt\delta`$ is unrestricted, and the effect may depend on $`\delta`$. When the binary probability can be known to arbitrary precision, the minimum block size obeys
 
 ```math
 k_{\mathrm{gap}}(\delta)=\Theta\!\left(\log\frac1\delta\right).

@@ -29,7 +29,7 @@ p_E(\rho)=\mathrm{Tr}(E\rho^{\otimes k}).
 
 The effect is required to be exactly universal on **all** mixed two-qubit states: some function of its true probability must classify every separable and every entangled state. Let $`\mathcal U_k`$ denote this class of effects.
 
-For $`0<\delta\le1/2`$ and $`0<\eta<1/2`$, define $`n_k^*(\delta,\eta)`$ as the least integer $`n`$ for which some $`E\in\mathcal U_k`$ and some possibly randomized function of the entire retained bit string have both errors at most $`\eta`$ for
+For $`0\lt\delta\le1/2`$ and $`0\lt\eta\lt1/2`$, define $`n_k^*(\delta,\eta)`$ as the least integer $`n`$ for which some $`E\in\mathcal U_k`$ and some possibly randomized function of the entire retained bit string have both errors at most $`\eta`$ for
 
 ```math
 H_0:\rho\in\mathrm{SEP},
@@ -63,7 +63,7 @@ n_k^*(\delta,\eta)
 \qquad\text{(4)}
 ```
 
-For $`0<\eta\le1/4`$, one has
+For $`0\lt\eta\le1/4`$, one has
 
 ```math
 \frac14\log\frac1\eta
@@ -125,7 +125,7 @@ Combining (5) and (6) proves
 \qquad\text{(7)}
 ```
 
-Since entanglement is equivalent to $`f<0`$, (7) supplies a uniform signed probability gap for the upper bound.
+Since entanglement is equivalent to $`f\lt0`$, (7) supplies a uniform signed probability gap for the upper bound.
 
 ### 2.2. A family attaining the fourth power
 
@@ -211,7 +211,7 @@ The rigidity theorem gives, for every $`E\in\mathcal U_k`$,
 ```math
 p_E(\rho)=c+f(\rho)q(\rho),
 \qquad
-0<c<1,
+0\lt c\lt1,
 \qquad
 \deg q\le k-4.
 \qquad\text{(12)}
@@ -429,7 +429,7 @@ p_{E_*}(\rho)\le\frac12-\delta^4.
 Let $`\widehat p`$ be the empirical frequency of outcome one. Declare entanglement when
 
 ```math
-\widehat p<\frac12-\frac{\delta^4}{2}.
+\widehat p\lt\frac12-\frac{\delta^4}{2}.
 ```
 
 The two promised classes are each separated from this threshold by at least $`\delta^4/2`$. Hoeffding's inequality gives each error at most
@@ -457,7 +457,7 @@ The exponent eight is an architectural cost of exact universal binary readout wi
 \Theta\!\left(\delta^{-2}\log\frac1\eta\right)
 ```
 
-for $`0<\delta\le1/2`$ and $`0<\eta\le1/4`$. The following elementary argument records the comparison without imposing a growing-dimensional efficiency claim.
+for $`0\lt\delta\le1/2`$ and $`0\lt\eta\le1/4`$. The following elementary argument records the comparison without imposing a growing-dimensional efficiency claim.
 
 ### 6.1. Tomographic upper bound
 
@@ -493,7 +493,7 @@ The full-rank boundary state (13) also supplies a commuting family
 \widetilde\rho_\delta
 =\tau+\frac{4\delta}{3}
 \left(|\Phi^+\rangle\langle\Phi^+|-\frac{I_4}{4}\right),
-\qquad 0<\delta\le\frac12.
+\qquad 0\lt\delta\le\frac12.
 ```
 
 Its eigenvalues are $`1/2+\delta`$ on $`|\Phi^+\rangle`$ and $`1/6-\delta/3`$ on each of the three orthogonal directions. It is a density operator. Its partial transpose has negative eigenvalue $`-\delta`$ with eigenvector $`|\Psi^-\rangle`$. The witness $`V`$ from Section 2 gives $`\Delta(\widetilde\rho_\delta)\ge\delta`$, while

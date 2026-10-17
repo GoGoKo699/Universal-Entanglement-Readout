@@ -64,7 +64,7 @@ The empty product equals one. The same bound holds after permutation averaging.
 For example, the coordinate functionals
 $`F_{ii}=|i\rangle\langle i|`$,
 $`F^{\mathrm R}_{ij}=(|i\rangle\langle j|+|j\rangle\langle i|)/2`$, and
-$`F^{\mathrm I}_{ij}=i(|i\rangle\langle j|-|j\rangle\langle i|)/2`$ for $`i<j`$
+$`F^{\mathrm I}_{ij}=i(|i\rangle\langle j|-|j\rangle\langle i|)/2`$ for $`i\lt j`$
 extract the diagonal entries, real parts, and imaginary parts of $`\rho`$.
 Their norms are at most one, so the simpler bound
 $`C_q\le\sum_\mu|c_\mu|`$ is available in those coordinates.
@@ -273,7 +273,7 @@ Hilbert space, not only their expectations on identical product inputs:
 ```math
 \boxed{\Vert W_f\Vert_\infty\le1,\qquad
 \Vert W_g\Vert_\infty\le12,\qquad
-\Vert W_h\Vert_\infty\le\sqrt{15}<4.}
+\Vert W_h\Vert_\infty\le\sqrt{15}\lt4.}
 ```
 
 ### Partial transpose of a pure projector
@@ -281,7 +281,7 @@ Hilbert space, not only their expectations on identical product inputs:
 Let $`P=|\psi\rangle\langle\psi|`$ be a normalized pure projector and let
 $`\lambda_i`$ be the squared Schmidt coefficients across any bipartition.
 The nonzero eigenvalues of the partial transpose are $`\lambda_i`$ and
-$`\pm\sqrt{\lambda_i\lambda_j}`$ for $`i<j`$. Its operator norm is
+$`\pm\sqrt{\lambda_i\lambda_j}`$ for $`i\lt j`$. Its operator norm is
 $`\max_i\lambda_i\le1`$. Fixed unitary conjugation does not change this norm.
 
 Since $`A_6`$ is a normalized pure projector, applying any subset of the six

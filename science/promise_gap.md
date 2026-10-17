@@ -2,7 +2,7 @@
 
 The exact qubit–qutrit scalar obstruction disappears when the detector is allowed to ignore a nonzero neighborhood of the separable boundary. Its block size must nevertheless grow as that neighborhood shrinks. This supporting result concerns the number of copies processed within a block and assumes arbitrary probability resolution.
 
-Use the [fixed apparatus model](model.md) and distance $`\Delta(\rho)=\inf_{\sigma\in\mathrm{SEP}}\Vert\rho-\sigma\Vert_1/2`$. Let $`k_{\mathrm{gap}}(\delta)`$ be the least integer $`k`$ for which a binary effect on $`k`$ qubit–qutrit copies distinguishes all separable states from all states with $`\Delta(\rho)\ge\delta`$ through its exactly known probability. The effect may depend on $`\delta`$, and no decision is required for $`0<\Delta(\rho)<\delta`$.
+Use the [fixed apparatus model](model.md) and distance $`\Delta(\rho)=\inf_{\sigma\in\mathrm{SEP}}\Vert\rho-\sigma\Vert_1/2`$. Let $`k_{\mathrm{gap}}(\delta)`$ be the least integer $`k`$ for which a binary effect on $`k`$ qubit–qutrit copies distinguishes all separable states from all states with $`\Delta(\rho)\ge\delta`$ through its exactly known probability. The effect may depend on $`\delta`$, and no decision is required for $`0\lt\Delta(\rho)\lt\delta`$.
 
 **Theorem S1.** At fixed local dimensions $`2\times3`$,
 
@@ -22,7 +22,7 @@ The explicit family in [Outcome minima](outcome_minima.md) has the form
 \qquad |s|,|t|\le r=10^{-4}.
 ```
 
-Here $`\rho_0>0`$, and $`u,v`$ are orthonormal vectors in the kernel of $`\rho_0^\Gamma`$. Throughout the square the states are full rank. Their partial transposes have eigenvalues $`s,t`$ and four positive eigenvalues. Therefore
+Here $`\rho_0\gt0`$, and $`u,v`$ are orthonormal vectors in the kernel of $`\rho_0^\Gamma`$. Throughout the square the states are full rank. Their partial transposes have eigenvalues $`s,t`$ and four positive eigenvalues. Therefore
 
 ```math
 \rho(s,t)\in\mathrm{SEP}\quad\Longleftrightarrow\quad s\ge0\text{ and }t\ge0.
@@ -56,7 +56,7 @@ t=\frac rn\sum_{i=1}^n y_i,\qquad x_i,y_i\in\{-1,1\}.
 
 Odd $`n`$ excludes ties, so every coordinate has absolute value at least $`r/n\ge\delta`$. These states are separable precisely when both Boolean sums are positive. Every other grid state satisfies the promised entanglement gap.
 
-On this finite grid, choose $`\zeta>0`$ smaller than the minimum of $`(p-a)(p-b)`$ over the entangled grid points. The polynomial
+On this finite grid, choose $`\zeta\gt0`$ smaller than the minimum of $`(p-a)(p-b)`$ over the entangled grid points. The polynomial
 
 ```math
 Q(s,t)=[p(\rho(s,t))-a][p(\rho(s,t))-b]-\zeta
@@ -93,9 +93,9 @@ A Hermitian $`H`$ is positive semidefinite if and only if all its $`e_j`$ are no
 \det(xI+H)=x^6+e_1x^5+e_2x^4+e_3x^3+e_4x^2+e_5x+e_6
 ```
 
-strictly positive for every $`x>0`$, excluding a negative eigenvalue. Thus in $`2\times3`$ it suffices to decide the conjunction $`e_3,e_4,e_5,e_6\ge0`$. This four-coefficient criterion is also a useful comparison with [ZhangXie2026](../references/RELATED_WORK.md#zhangxie2026); S1 does not claim that this criterion or polynomial measurement itself is new.
+strictly positive for every $`x\gt0`$, excluding a negative eigenvalue. Thus in $`2\times3`$ it suffices to decide the conjunction $`e_3,e_4,e_5,e_6\ge0`$. This four-coefficient criterion is also a useful comparison with [ZhangXie2026](../references/RELATED_WORK.md#zhangxie2026); S1 does not claim that this criterion or polynomial measurement itself is new.
 
-If $`\Delta(\rho)\ge\delta`$ and $`\lambda_{\min}(H)=-\alpha<0`$, then
+If $`\Delta(\rho)\ge\delta`$ and $`\lambda_{\min}(H)=-\alpha\lt0`$, then
 
 ```math
 \sigma=\frac{\rho+\alpha I}{1+6\alpha}
@@ -127,7 +127,7 @@ Set
 x_j=\frac{e_j}{64}+\frac\gamma2\quad(j=3,4,5,6).
 ```
 
-For $`0<\delta\le1`$ these numbers lie in $`[-1,1]`$. Every separable state has $`x_j\ge\varepsilon`$ for all four indices. Every promised entangled state has at least one $`x_j\le-\varepsilon`$.
+For $`0\lt\delta\le1`$ these numbers lie in $`[-1,1]`$. Every separable state has $`x_j\ge\varepsilon`$ for all four indices. Every promised entangled state has at least one $`x_j\le-\varepsilon`$.
 
 Choose
 
@@ -143,9 +143,9 @@ and define
 N(x)=A(x)-A(-x),\qquad D(x)=A(x)+A(-x),\qquad R(x)=\frac{N(x)}{D(x)}.
 ```
 
-The polynomials $`A(x)`$ and $`A(-x)`$ have disjoint real root sets, so $`D(x)>0`$ for every real $`x`$. Both are nonnegative. Hence $`|R(x)|\le1`$ and $`R(-x)=-R(x)`$ everywhere.
+The polynomials $`A(x)`$ and $`A(-x)`$ have disjoint real root sets, so $`D(x)\gt0`$ for every real $`x`$. Both are nonnegative. Hence $`|R(x)|\le1`$ and $`R(-x)=-R(x)`$ everywhere.
 
-If $`\varepsilon\le x\le1`$, one grid node satisfies $`a_\ell\le x<2a_\ell`$. Its factor in
+If $`\varepsilon\le x\le1`$, one grid node satisfies $`a_\ell\le x\lt2a_\ell`$. Its factor in
 
 ```math
 \frac{A(-x)}{A(x)}=\prod_{\ell=0}^{L}\left(\frac{x-a_\ell}{x+a_\ell}\right)^2
@@ -161,11 +161,11 @@ R(x)\le-\frac45\quad(x\le-\varepsilon),
 within the interval $`[-1,1]`$. Therefore
 
 ```math
-\sum_{j=3}^6R(x_j)\ge\frac{16}{5}>3
+\sum_{j=3}^6R(x_j)\ge\frac{16}{5}\gt3
 \quad\text{on separable states},
 ```
 
-whereas the sum is at most $`3-4/5=11/5<3`$ on promised entangled states. Boundedness on the transition interval is essential because the other three coordinates of an entangled state need not satisfy any gap condition.
+whereas the sum is at most $`3-4/5=11/5\lt3`$ on promised entangled states. Boundedness on the transition interval is essential because the other three coordinates of an entangled state need not satisfy any gap condition.
 
 ## 5. Clearing denominators and realizing one binary probability
 

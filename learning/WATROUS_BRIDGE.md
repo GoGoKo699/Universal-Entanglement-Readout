@@ -279,7 +279,7 @@ g=\left.\frac{d}{dt}\det(H+tD)\right|_{t=0}
 
 is a polynomial identity with no matrix inverse.
 
-When $`B>0`$, the proof forms
+When $`B\gt0`$, the proof forms
 $`K=D^{-1/2}HD^{-1/2}`$. This congruence preserves the number of positive,
 negative, and zero eigenvalues. It also gives $`K\le I`$ and
 $`\mathrm{Tr}K=3`$. These spectral constraints leave only a few
@@ -296,7 +296,7 @@ The resulting rule on this promised domain is
 ```math
 \rho\in\mathrm{SEP}
 \quad\Longleftrightarrow\quad
-(f>0\text{ and }g>0)
+(f\gt0\text{ and }g\gt0)
 \text{ or }(f=0\text{ and }g\ge0).
 ```
 
@@ -306,7 +306,7 @@ determinant. The inertia argument in
 shows how $`g`$ resolves that case. The inequality must be strict:
 the [equality example](../science/outcome_minima.md#equality-cases-and-verification)
 is an NPT state with $`(f,g,h)=(1/4096,0,-1/64)`$, so accepting
-$`g=0`$ when $`f>0`$ would misclassify it.
+$`g=0`$ when $`f\gt0`$ would misclassify it.
 
 When $`B`$ is singular, positivity of $`\rho`$ confines its support to
 $`\mathbb C^2\otimes\mathrm{supp}B`$. If $`B`$ has rank two, this support
@@ -325,12 +325,12 @@ $`f=g=h=0`$. The full-domain rule therefore includes the third statistic:
 ```math
 \rho\in\mathrm{SEP}
 \quad\Longleftrightarrow\quad
-(f>0\text{ and }g>0)
+(f\gt0\text{ and }g\gt0)
 \text{ or }
-\bigl(f=0\text{ and }[g>0\text{ or }(g=0\text{ and }h\ge0)]\bigr).
+\bigl(f=0\text{ and }[g\gt0\text{ or }(g=0\text{ and }h\ge0)]\bigr).
 ```
 
-Global positive definiteness implies $`B>0`$, while an invertible marginal
+Global positive definiteness implies $`B\gt0`$, while an invertible marginal
 does not require the global state to be full rank. The state domain must
 therefore be stated using the intended promise. The matrix $`K`$ is a proof
 device; the implemented observables represent $`f,g,h`$ directly. They
@@ -357,8 +357,8 @@ $`s,t`$ and four positive eigenvalues. Hence
 
 Suppose an analytic scalar $`p(s,t)`$ classified this quadrant. Its image
 on the compact nonnegative quadrant would be an interval $`[a,b]`$. An axis
-point $`(0,t)`$ with $`t>0`$ is separable and is approached by entangled
-points with $`s<0`$. Its scalar value must therefore be an endpoint.
+point $`(0,t)`$ with $`t\gt0`$ is separable and is approached by entangled
+points with $`s\lt0`$. Its scalar value must therefore be an endpoint.
 If the value were in the interval's interior, sufficiently nearby
 entangled points would also have values inside $`[a,b]`$.
 
@@ -378,7 +378,7 @@ promise.
 For [M10](MILESTONES.md#m10-polynomial-identities-beyond-a-physical-patch)
 and M15–M16, start on a physical patch where
 $`\Lambda=\rho^\Gamma`$ is positive semidefinite of rank four and
-$`\rho>0`$. If the first of two polynomial statistics varies along a
+$`\rho\gt0`$. If the first of two polynomial statistics varies along a
 tangent direction of this patch, the implicit function theorem can
 adjust that direction to hold the statistic constant. The second
 statistic would then have to classify a two-dimensional diagonal
@@ -421,7 +421,7 @@ matrix, with spectrum $`-1/2,1/2,1/2,1/2,0,0`$. Both output coordinates
 would equal their values on the separable patch. This proves the
 stronger obstruction on all states. The contradiction uses a
 singular-marginal state, explaining why the same argument does not
-exclude the attained two-statistic criterion under $`B>0`$.
+exclude the attained two-statistic criterion under $`B\gt0`$.
 
 These analytic and algebraic steps are local project derivations in
 [Outcome minima](../science/outcome_minima.md#two-polynomial-coordinates-are-insufficient-on-all-states).
@@ -531,7 +531,7 @@ $`c=\mathrm{Tr}(E\tau^{\otimes k})`$ and positivity give
 ```
 
 A universal effect is neither zero nor the identity. Full rank of
-$`\tau^{\otimes k}`$ consequently implies $`0<c<1`$.
+$`\tau^{\otimes k}`$ consequently implies $`0\lt c\lt1`$.
 These two estimates control the scale of the probability even when
 $`c`$ is close to zero or one. Combining them with a fourth-derivative
 bound along the pure-state family yields, uniformly over all universal
@@ -543,7 +543,7 @@ effects at fixed $`k`$,
 B_k=\frac{\pi^4k^4 6^k}{24}.
 ```
 
-For a prescribed $`0<\delta\le1/2`$, choose $`\theta`$ with
+For a prescribed $`0\lt\delta\le1/2`$, choose $`\theta`$ with
 $`\delta_\theta=\delta`$ and compare $`\rho_\theta`$ to the separable
 state $`\rho_0=|00\rangle\langle00|`$. Rigidity gives
 $`p_E(\rho_0)=c`$ because its partial-transpose determinant is zero.
@@ -580,7 +580,7 @@ classes by at least $`\delta^4`$ in probability. A threshold halfway
 across that gap and Hoeffding's inequality give
 $`n\le\lceil2\delta^{-8}\log(1/\eta)\rceil`$.
 
-For fixed $`k\ge4`$, $`0<\delta\le1/2`$, and $`0<\eta\le1/4`$, the best
+For fixed $`k\ge4`$, $`0\lt\delta\le1/2`$, and $`0\lt\eta\le1/4`$, the best
 repetition count in the globally universal binary class is consequently
 
 ```math
@@ -609,7 +609,7 @@ single exactly universal binary probability.
 ## A distance promise changes the apparatus class
 
 M27–M28 consider qubit–qutrit states with a different requirement.
-A detector chosen for a fixed $`\delta>0`$ must distinguish
+A detector chosen for a fixed $`\delta\gt0`$ must distinguish
 
 ```math
 \rho\in\mathrm{SEP}
@@ -617,7 +617,7 @@ A detector chosen for a fixed $`\delta>0`$ must distinguish
 \Delta(\rho)\ge\delta,
 ```
 
-and its behavior on $`0<\Delta(\rho)<\delta`$ is unrestricted. A
+and its behavior on $`0\lt\Delta(\rho)\lt\delta`$ is unrestricted. A
 polynomial sign filter can now interpolate across the unconstrained
 region. The exact scalar obstruction does not apply to this relaxed
 classification task.
