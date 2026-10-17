@@ -157,6 +157,14 @@ for two independent majorities on disjoint variables, with a matching upper boun
 
 This project imports that threshold-degree theorem. Its additional step is the physical qubit–qutrit embedding and the conversion of arbitrary scalar postprocessing into a sign-representing polynomial. A logarithmic optimal block size permits a small output-probability margin and does not imply a logarithmic total-copy cost.
 
+## Educational anchor
+
+### Watrous2018
+
+**John Watrous, *The Theory of Quantum Information*, Cambridge University Press (2018)** [Watrous2018]. [Publisher](https://doi.org/10.1017/9781316848142), [author-hosted manuscript and chapters](https://cs.uwaterloo.ca/~watrous/TQI/).
+
+This is the project's single educational anchor. The [source bridge](../learning/WATROUS_BRIDGE.md) uses section numbers from the author-hosted 2018 prepublication manuscript and translates its quantum-information foundations into the measurement model used here. The original proofs in the science pages and the primary ingredients above retain their own attribution. The educational route does not attribute the outcome hierarchy or the universality penalty to the textbook.
+
 ## Scope of the novelty review
 
 The review followed the determinant-observable literature, its geometric and measurement descendants, recent polynomial witness families, and the statistical and threshold-degree connections above. Among the primary sources inspected, none states this repository's exact three-statistic/four-outcome qubit–qutrit theorem or its universal binary rigidity and repetition theorem.

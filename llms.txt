@@ -4,7 +4,8 @@ This repository studies the exact outcome requirements of one fixed collective
 entanglement detector and the finite-statistics cost of binary universality.
 
 Canonical entrypoints:
-- README.md: scientific question, result table, reading route, reproduction command.
+- README.md: scientific question, result table, specialist and learning routes,
+  reproduction command, purpose and contact.
 - manuscript/main.md: connected manuscript account and proof mechanisms.
 - science/model.md: authoritative model, distance convention, quantifiers, R1/R2/R3/S1.
 - science/outcome_minima.md: physical quadrant, one- and two-coordinate obstructions,
@@ -23,6 +24,28 @@ Canonical entrypoints:
 - verification/README.md: exact checks and their limits.
 - verification/run_all.py: deterministic standard-library verification runner.
 
+Learning entrypoints:
+- learning/MILESTONES.md: canonical learner-independent map, exactly M01–M30;
+  12 background/preliminaries and 18 narrative/innovation milestones, each
+  with dependencies, understanding targets, evidence targets and proof pointers.
+- learning/WATROUS_BRIDGE.md: the single selected educational anchor, John
+  Watrous's The Theory of Quantum Information (2018), with verified manuscript
+  sections, notation and convention mapping, and project-specific derivations.
+- learning/COACHING.md: the complete Revise → Learn → Test contract, challenge
+  and learning feedback timing, retries, clickable delivery, and private learner
+  state. Read it before starting or resuming any milestone lesson.
+
+Reader routes:
+- To understand the story: read the Watrous bridge and follow M01–M30.
+- To inspect a theorem: read science/model.md, then the corresponding proof
+  file and its primary attribution. The manuscript connects the results.
+- To reproduce a finite ingredient: read verification/README.md, then run the
+  relevant documented command; distinguish execution from an earlier report.
+- For requested coaching: read the map, bridge and coaching guide; recover the
+  actual learner state and source revision. Preparing files or selecting an
+  anchor does not start a lesson or pass a milestone. Adapt teaching inside the
+  common map, and retain learning records separately from public project files.
+
 Preserve these distinctions when explaining or editing:
 - m outcomes retain m-1 coordinates; one setting is not automatically one scalar.
 - R1 lower bounds allow arbitrary finite k and arbitrary exact postprocessing.
@@ -39,3 +62,7 @@ Preserve these distinctions when explaining or editing:
   work. Read the attribution before making an originality claim.
 - Finite checks verify finite ingredients. Use the written proofs for universal
   and asymptotic statements, and do not infer mastery or peer review from them.
+- The single educational anchor supplies foundations. Primary research sources
+  remain necessary for attribution and imported proof ingredients; they are
+  not additional assigned textbooks. The bridge identifies what is supplied
+  by this repository rather than proved in Watrous.
