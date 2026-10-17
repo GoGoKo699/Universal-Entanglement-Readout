@@ -1,0 +1,91 @@
+{
+  "PT_eigenvalue_structure": "s, t, and four positive eigenvalues (1-s-t)*eig_positive(X)/130.",
+  "R": [
+    [
+      6,
+      2,
+      4,
+      2,
+      8,
+      8
+    ],
+    [
+      2,
+      8,
+      8,
+      4,
+      8,
+      20
+    ],
+    [
+      4,
+      8,
+      20,
+      8,
+      16,
+      32
+    ],
+    [
+      2,
+      4,
+      8,
+      8,
+      8,
+      16
+    ],
+    [
+      8,
+      8,
+      16,
+      8,
+      20,
+      32
+    ],
+    [
+      8,
+      20,
+      32,
+      16,
+      32,
+      68
+    ]
+  ],
+  "algebraic_identities_checked": true,
+  "all_checks_passed": true,
+  "classification": "PPT iff s>=0 and t>=0 throughout the square. In 2x3 the PPT criterion is equivalent to separability.",
+  "corners": [
+    {
+      "all_leading_principal_minors_positive": true,
+      "s": "-1/10000",
+      "t": "-1/10000"
+    },
+    {
+      "all_leading_principal_minors_positive": true,
+      "s": "-1/10000",
+      "t": "1/10000"
+    },
+    {
+      "all_leading_principal_minors_positive": true,
+      "s": "1/10000",
+      "t": "-1/10000"
+    },
+    {
+      "all_leading_principal_minors_positive": true,
+      "s": "1/10000",
+      "t": "1/10000"
+    }
+  ],
+  "full_square_positivity": "Convex combinations of the four positive-definite corners cover the entire square.",
+  "method": "Rational elimination and exact matrix identities; no numerical tolerance.",
+  "physical_square_delta": "1/10000",
+  "principal_minors_R": [
+    6,
+    44,
+    496,
+    2304,
+    5120,
+    9216
+  ],
+  "rank_partial_transpose_R": 4,
+  "trace_R": 130
+}
