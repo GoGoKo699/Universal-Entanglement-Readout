@@ -29,7 +29,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** What physical input does one run of the apparatus receive?
 
-**Understanding target.** Interpret a positive trace-one operator as the unknown bipartite state and $\rho^{\otimes k}$ as $k$ independent preparations of that same state. Distinguish the local tensor factors $A,B$ from the tensor factors indexing repeated copies. This fixes the objects on which every later measurement acts.
+**Understanding target.** Interpret a positive trace-one operator as the unknown bipartite state and $`\rho^{\otimes k}`$ as $`k`$ independent preparations of that same state. Distinguish the local tensor factors $`A,B`$ from the tensor factors indexing repeated copies. This fixes the objects on which every later measurement acts.
 
 **Prerequisites.** None within this map.
 
@@ -57,11 +57,11 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** When does a spectral test decide separability?
 
-**Understanding target.** Define partial transpose on one local subsystem and interpret its negative eigenvalues as entanglement certificates. Know the precise imported equivalence between positive partial transpose and separability in $2\times2$ and $2\times3$. Relate this dimensional restriction to the project's use of matrix spectra.
+**Understanding target.** Define partial transpose on one local subsystem and interpret its negative eigenvalues as entanglement certificates. Know the precise imported equivalence between positive partial transpose and separability in $`2\times2`$ and $`2\times3`$. Relate this dimensional restriction to the project's use of matrix spectra.
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M02](#m02-separable-states-as-a-convex-set).
 
-**Evidence target.** Identify which direction of the PPT implication survives in larger dimensions and why a formula involving $\rho^\Gamma$ does not instruct an experiment to apply partial transpose physically.
+**Evidence target.** Identify which direction of the PPT implication survives in larger dimensions and why a formula involving $`\rho^\Gamma`$ does not instruct an experiment to apply partial transpose physically.
 
 **Canonical sources.** [States, partial transpose, and distance](../science/model.md#states-partial-transpose-and-distance); [PPT source attribution](../references/RELATED_WORK.md#peres1996-and-ppt1996); [fixed linear maps](../science/collective_measurements.md#tensor-factors-and-fixed-linear-maps).
 
@@ -71,7 +71,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** What changes when the qutrit marginal loses rank?
 
-**Understanding target.** Distinguish global rank, partial-transpose rank, and marginal rank. Understand why $B=\operatorname{Tr}_A\rho>0$ is weaker than full rank of $\rho$, and why positivity confines $\rho$ to $A\otimes\operatorname{supp}B$ when $B$ is singular. This identifies a physically meaningful boundary of the state domain.
+**Understanding target.** Distinguish global rank, partial-transpose rank, and marginal rank. Understand why $`B=\mathrm{Tr}_A\rho\gt0`$ is weaker than full rank of $`\rho`$, and why positivity confines $`\rho`$ to $`A\otimes\mathrm{supp}B`$ when $`B`$ is singular. This identifies a physically meaningful boundary of the state domain.
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M03](#m03-partial-transpose-and-the-dimension-boundary).
 
@@ -85,7 +85,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** What information is actually retained from the apparatus?
 
-**Understanding target.** Interpret $p_j(\rho)=\operatorname{Tr}(E_j\rho^{\otimes k})$ for one fixed state-independent POVM. A run emits one of $m$ labels; its complete probability vector is determined by $m-1$ coordinates. Absorb fixed ancillas and internal operations into the effects while counting every retained setting, intermediate record, or postselection label.
+**Understanding target.** Interpret $`p_j(\rho)=\mathrm{Tr}(E_j\rho^{\otimes k})`$ for one fixed state-independent POVM. A run emits one of $`m`$ labels; its complete probability vector is determined by $`m-1`$ coordinates. Absorb fixed ancillas and internal operations into the effects while counting every retained setting, intermediate record, or postselection label.
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M02](#m02-separable-states-as-a-convex-set).
 
@@ -99,7 +99,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** Why can copy count be studied through polynomial functions?
 
-**Understanding target.** Connect tensor-product factorization to a real probability polynomial of degree at most $k$ on trace-one Hermitian coordinates. Understand the converse construction: represent each monomial by a Hermitian tensor observable, pad lower degrees with identities, then use a certified norm bound to shift and rescale observables into POVM effects.
+**Understanding target.** Connect tensor-product factorization to a real probability polynomial of degree at most $`k`$ on trace-one Hermitian coordinates. Understand the converse construction: represent each monomial by a Hermitian tensor observable, pad lower degrees with identities, then use a certified norm bound to shift and rescale observables into POVM effects.
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M05](#m05-a-fixed-povm-and-its-complete-record).
 
@@ -113,7 +113,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How do eigenvalue conditions become fixed collective observables?
 
-**Understanding target.** Relate elementary symmetric coefficients $e_r(X)$ to the spectrum of a Hermitian matrix and to $\operatorname{Tr}(A_rX^{\otimes r})$, where $A_r$ is the normalized antisymmetric projector. Connect determinant degree, characteristic coefficients, and the derivative of a determinant to their copy requirements. Keep observable norm bounds distinct from bounds on selected expectations.
+**Understanding target.** Relate elementary symmetric coefficients $`e_r(X)`$ to the spectrum of a Hermitian matrix and to $`\mathrm{Tr}(A_rX^{\otimes r})`$, where $`A_r`$ is the normalized antisymmetric projector. Connect determinant degree, characteristic coefficients, and the derivative of a determinant to their copy requirements. Keep observable norm bounds distinct from bounds on selected expectations.
 
 **Prerequisites.** [M01](#m01-states-and-independent-copies), [M03](#m03-partial-transpose-and-the-dimension-boundary), [M06](#m06-polynomial-degree-and-collective-realization).
 
@@ -127,7 +127,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How is a quantitative entanglement promise certified?
 
-**Understanding target.** Use the half-trace distance $\Delta(\rho)=\inf_{\sigma\in\mathrm{SEP}}\|\rho-\sigma\|_1/2$. A concrete separable approximation gives an upper bound; an entanglement witness with a controlled operator norm gives a lower bound through trace-norm duality. Equality requires matching both arguments.
+**Understanding target.** Use the half-trace distance $`\Delta(\rho)=\inf_{\sigma\in\mathrm{SEP}}\Vert\rho-\sigma\Vert_1/2`$. A concrete separable approximation gives an upper bound; an entanglement witness with a controlled operator norm gives a lower bound through trace-norm duality. Equality requires matching both arguments.
 
 **Prerequisites.** [M02](#m02-separable-states-as-a-convex-set), [M03](#m03-partial-transpose-and-the-dimension-boundary).
 
@@ -183,7 +183,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** Which experiment and which resource does each theorem describe?
 
-**Understanding target.** Assemble the background into the full model: unknown iid mixed states, one fixed collective apparatus, complete retained outcomes, and an exact decision map. Separate outcomes $m$, block size $k$, repetitions $n$, probability precision, and implementation complexity. Locate the different quantifiers of exact universality, universal apparatuses used for a promised statistical task, and apparatuses designed only for that promise.
+**Understanding target.** Assemble the background into the full model: unknown iid mixed states, one fixed collective apparatus, complete retained outcomes, and an exact decision map. Separate outcomes $`m`$, block size $`k`$, repetitions $`n`$, probability precision, and implementation complexity. Locate the different quantifiers of exact universality, universal apparatuses used for a promised statistical task, and apparatuses designed only for that promise.
 
 **Prerequisites.** [M04](#m04-marginal-rank-and-physical-support), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M10](#m10-polynomial-identities-beyond-a-physical-patch), [M11](#m11-probability-gaps-and-statistical-evidence).
 
@@ -199,7 +199,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** Can a two-coordinate corner be realized by physical density operators?
 
-**Understanding target.** Follow the construction of a full-rank separable seed whose partial transpose is positive of rank four. Perturb its two kernel directions while preserving positivity of the original state. On the resulting physical square, the two selected partial-transpose eigenvalues are $s,t$, so separability is exactly $s,t\ge0$.
+**Understanding target.** Follow the construction of a full-rank separable seed whose partial transpose is positive of rank four. Perturb its two kernel directions while preserving positivity of the original state. On the resulting physical square, the two selected partial-transpose eigenvalues are $`s,t`$, so separability is exactly $`s,t\ge0`$.
 
 **Prerequisites.** [M03](#m03-partial-transpose-and-the-dimension-boundary), [M04](#m04-marginal-rank-and-physical-support), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M12](#m12-the-complete-operational-question).
 
@@ -241,7 +241,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How does local constancy rule out two coordinates on the whole state space?
 
-**Understanding target.** Follow trace homogenization, the factorization $X=YY^\dagger$, and complexification to independent factors $YZ^T$. The identity extends to trace-one Hermitian matrices of rank at most four in partial-transpose coordinates. An embedded Bell state therefore receives the same pair as a separable patch.
+**Understanding target.** Follow trace homogenization, the factorization $`X=YY^\dagger`$, and complexification to independent factors $`YZ^T`$. The identity extends to trace-one Hermitian matrices of rank at most four in partial-transpose coordinates. An embedded Bell state therefore receives the same pair as a separable patch.
 
 **Prerequisites.** [M10](#m10-polynomial-identities-beyond-a-physical-patch), [M15](#m15-why-two-statistics-must-become-locally-constant).
 
@@ -255,11 +255,11 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** Which fixed polynomials suffice when the qutrit marginal is invertible?
 
-**Understanding target.** Relate $H=I_2\otimes B-\rho$ to the partial transpose. Introduce $f=\det H$ and $g=\operatorname{Tr}[D\operatorname{adj}(H)]$, with $D=I_2\otimes B$. In the proof, whitening gives $K\le I$ and $\operatorname{Tr}K=3$; these restrictions on inertia make $f$ and the weighted coefficient $g=(\det B)^2e_5(K)$ sufficient.
+**Understanding target.** Relate $`H=I_2\otimes B-\rho`$ to the partial transpose. Introduce $`f=\det H`$ and $`g=\mathrm{Tr}[D\mathrm{adj}(H)]`$, with $`D=I_2\otimes B`$. In the proof, whitening gives $`K\le I`$ and $`\mathrm{Tr}K=3`$; these restrictions on inertia make $`f`$ and the weighted coefficient $`g=(\det B)^2e_5(K)`$ sufficient.
 
 **Prerequisites.** [M04](#m04-marginal-rank-and-physical-support), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M12](#m12-the-complete-operational-question).
 
-**Evidence target.** Interpret the sign branches, including an entangled state with $f>0,g=0$, and explain why whitening is a proof operation that supplies no hidden state estimate to the apparatus.
+**Evidence target.** Interpret the sign branches, including an entangled state with $`f\gt0,g=0`$, and explain why whitening is a proof operation that supplies no hidden state estimate to the apparatus.
 
 **Canonical sources.** [Three explicit statistics](../science/outcome_minima.md#three-explicit-statistics-give-a-complete-criterion); [invertible qutrit marginal](../science/outcome_minima.md#invertible-qutrit-marginal); [equality cases](../science/outcome_minima.md#equality-cases-and-verification).
 
@@ -269,11 +269,11 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How is the criterion completed when the rank promise is removed?
 
-**Understanding target.** Use support reduction for a singular qutrit marginal. At rank two, $f=g=0$ while $h=e_4(H)$ becomes the determinant on the supported two-qubit block; at rank one the state is product. Integrate these cases with the invertible-marginal rule, preserving every strict and non-strict sign in the complete criterion.
+**Understanding target.** Use support reduction for a singular qutrit marginal. At rank two, $`f=g=0`$ while $`h=e_4(H)`$ becomes the determinant on the supported two-qubit block; at rank one the state is product. Integrate these cases with the invertible-marginal rule, preserving every strict and non-strict sign in the complete criterion.
 
 **Prerequisites.** [M04](#m04-marginal-rank-and-physical-support), [M16](#m16-the-singular-state-reached-by-continuation), [M17](#m17-two-statistics-under-an-invertible-marginal).
 
-**Evidence target.** Explain how $h$ resolves a collision that $f,g$ cannot resolve, and why a rule checked only at generic full rank would miss a load-bearing part of the theorem.
+**Evidence target.** Explain how $`h`$ resolves a collision that $`f,g`$ cannot resolve, and why a rule checked only at generic full rank would miss a load-bearing part of the theorem.
 
 **Canonical sources.** [Singular qutrit marginal](../science/outcome_minima.md#singular-qutrit-marginal); [equality cases](../science/outcome_minima.md#equality-cases-and-verification); [complete criterion](../science/outcome_minima.md#three-explicit-statistics-give-a-complete-criterion).
 
@@ -283,11 +283,11 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How are the three quantities retained by one physical POVM?
 
-**Understanding target.** Transfer the reduction maps to antisymmetric projectors to obtain fixed $W_f,W_g,W_h$ with the required expectations. Track the six derivative terms for $g$ and the identity padding for $h$. Use operator-norm certificates on the complete Hilbert space to make all four effects positive and recover the statistics by affine transformations.
+**Understanding target.** Transfer the reduction maps to antisymmetric projectors to obtain fixed $`W_f,W_g,W_h`$ with the required expectations. Track the six derivative terms for $`g`$ and the identity padding for $`h`$. Use operator-norm certificates on the complete Hilbert space to make all four effects positive and recover the statistics by affine transformations.
 
 **Prerequisites.** [M06](#m06-polynomial-degree-and-collective-realization), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M18](#m18-the-third-statistic-on-the-marginal-boundary).
 
-**Evidence target.** Explain why the construction needs neither a physical partial transpose nor prior knowledge of $B$, and why omitting $h$ permits a three-outcome POVM under the rank promise. Distinguish a positivity proof from checks on selected input states.
+**Evidence target.** Explain why the construction needs neither a physical partial transpose nor prior knowledge of $`B`$, and why omitting $`h`$ permits a three-outcome POVM under the rank promise. Distinguish a positivity proof from checks on selected input states.
 
 **Canonical sources.** [Explicit observables](../science/collective_measurements.md#explicit-six-copy-observables); [norm certificates](../science/collective_measurements.md#certified-operator-norm-bounds); [concrete POVMs](../science/collective_measurements.md#a-concrete-four-outcome-povm).
 
@@ -297,11 +297,11 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How do the converses and constructions fit into one exact minimum?
 
-**Understanding target.** Assemble the minimum outcome counts: two for all two-qubit states, three for qubit–qutrit states with $B>0$, and four for all qubit–qutrit states. Place the established two-qubit determinant construction beside the new outcome argument. Understand restriction to a local $2\times3$ subspace as a lower-bound transfer to larger dimensions.
+**Understanding target.** Assemble the minimum outcome counts: two for all two-qubit states, three for qubit–qutrit states with $`B\gt0`$, and four for all qubit–qutrit states. Place the established two-qubit determinant construction beside the new outcome argument. Understand restriction to a local $`2\times3`$ subspace as a lower-bound transfer to larger dimensions.
 
 **Prerequisites.** [M14](#m14-why-one-scalar-cannot-classify-the-corner), [M16](#m16-the-singular-state-reached-by-continuation), [M19](#m19-one-fixed-six-copy-measurement).
 
-**Evidence target.** State the matching lower and upper sides with their domains: lower bounds allow every finite block; six copies suffice for the qubit–qutrit constructions; four-outcome sufficiency is established only in $2\times3$ and its exchanged version.
+**Evidence target.** State the matching lower and upper sides with their domains: lower bounds allow every finite block; six copies suffice for the qubit–qutrit constructions; four-outcome sufficiency is established only in $`2\times3`$ and its exchanged version.
 
 **Canonical sources.** [R1 in the model](../science/model.md#r1-minimum-outcome-counts); [attainment and dimensional consequences](../science/outcome_minima.md#attainment-and-dimensional-consequences); [two-qubit determinant criterion](../science/binary_rigidity.md#2-the-two-qubit-determinant-criterion); [original determinant construction](../references/RELATED_WORK.md#augusiak2008).
 
@@ -311,7 +311,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** What does exact scalar universality force in the exceptional two-qubit case?
 
-**Understanding target.** Use the full-rank separable boundary state $\tau=I_4/6+|\Phi^+\rangle\langle\Phi^+|/3$, whose partial transpose has rank three. The local determinant hypersurface separates physical PPT and NPT states. The separable interval and connectedness force every universal scalar to take a constant endpoint value $c$ on a smooth open boundary patch.
+**Understanding target.** Use the full-rank separable boundary state $`\tau=I_4/6+|\Phi^+\rangle\langle\Phi^+|/3`$, whose partial transpose has rank three. The local determinant hypersurface separates physical PPT and NPT states. The separable interval and connectedness force every universal scalar to take a constant endpoint value $`c`$ on a smooth open boundary patch.
 
 **Prerequisites.** [M09](#m09-analytic-geometry-of-a-scalar-image), [M20](#m20-the-attained-outcome-hierarchy).
 
@@ -325,11 +325,11 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** Why must every universal binary probability contain the determinant?
 
-**Understanding target.** Combine boundary constancy with absolute irreducibility of the partial-transpose determinant on trace-one coordinates. Obtain $p_E=c+\det(\rho^\Gamma)q$ with $\deg q\le k-4$. Deduce four-copy necessity and affine uniqueness of the probability at four copies, while retaining the distinction between a probability function and its microscopic implementation.
+**Understanding target.** Combine boundary constancy with absolute irreducibility of the partial-transpose determinant on trace-one coordinates. Obtain $`p_E=c+\det(\rho^\Gamma)q`$ with $`\deg q\le k-4`$. Deduce four-copy necessity and affine uniqueness of the probability at four copies, while retaining the distinction between a probability function and its microscopic implementation.
 
 **Prerequisites.** [M10](#m10-polynomial-identities-beyond-a-physical-patch), [M21](#m21-a-constant-probability-on-the-two-qubit-boundary).
 
-**Evidence target.** Explain why all determinant-zero states share $c$, why $0<c<1$ follows from a nontrivial effect and a full-rank state, and why an arbitrary higher-degree quotient need not yield a universal detector.
+**Evidence target.** Explain why all determinant-zero states share $`c`$, why $`0\lt c\lt1`$ follows from a nontrivial effect and a full-rank state, and why an arbitrary higher-degree quotient need not yield a universal detector.
 
 **Canonical sources.** [R2 statement](../science/binary_rigidity.md#r2-rigidity-and-minimum-block-size); [irreducibility and divisibility](../science/binary_rigidity.md#4-irreducibility-and-continuation-on-the-trace-one-space); [scope of the quotient condition](../science/binary_rigidity.md#8-scope).
 
@@ -339,7 +339,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** Which affine determinant probabilities can a four-copy effect realize?
 
-**Understanding target.** Follow the four-copy antisymmetric construction and its Schmidt certificate to the spectrum of $W$. Understand why $E_*=I/2+W$ is valid and measures $1/2+\det(\rho^\Gamma)$. Permutation averaging and polarization identify the symmetric effect, giving the exact feasibility condition $|\alpha|\le2\min(c,1-c)$ for $c+\alpha\det(\rho^\Gamma)$.
+**Understanding target.** Follow the four-copy antisymmetric construction and its Schmidt certificate to the spectrum of $`W`$. Understand why $`E_*=I/2+W`$ is valid and measures $`1/2+\det(\rho^\Gamma)`$. Permutation averaging and polarization identify the symmetric effect, giving the exact feasibility condition $`|\alpha|\le2\min(c,1-c)`$ for $`c+\alpha\det(\rho^\Gamma)`$.
 
 **Prerequisites.** [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M22](#m22-determinant-divisibility-and-four-copy-necessity).
 
@@ -353,7 +353,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How does binary rigidity suppress sensitivity near a product state?
 
-**Understanding target.** Use the Schmidt family $\cos\theta|00\rangle+\sin\theta|11\rangle$ with $0\le\theta\le\pi/4$. Match dephasing and witness bounds to obtain $\Delta=\sin\theta\cos\theta$, and connect its partial-transpose spectrum to determinant $-\Delta^4$. Rigidity makes every allowed probability variation vanish through third order along this family.
+**Understanding target.** Use the Schmidt family $`\cos\theta|00\rangle+\sin\theta|11\rangle`$ with $`0\le\theta\le\pi/4`$. Match dephasing and witness bounds to obtain $`\Delta=\sin\theta\cos\theta`$, and connect its partial-transpose spectrum to determinant $`-\Delta^4`$. Rigidity makes every allowed probability variation vanish through third order along this family.
 
 **Prerequisites.** [M08](#m08-distance-and-witness-certificates), [M22](#m22-determinant-divisibility-and-four-copy-necessity), [M23](#m23-a-feasible-and-normalized-binary-detector).
 
@@ -367,11 +367,11 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** Why can neither gap-dependent tuning nor a rare output evade the exponent?
 
-**Understanding target.** Use $\tau\ge I/6$ to control both $E$ and $I-E$ by their boundary probabilities. Along the hard family, combine that scale control with a fourth-derivative estimate to bound $|p-c|$ by $B_k\min(c,1-c)\delta^4$. The Bernoulli divergence is then uniformly $O_k(\delta^8)$, and data processing for the final decision forces the repetition lower bound.
+**Understanding target.** Use $`\tau\ge I/6`$ to control both $`E`$ and $`I-E`$ by their boundary probabilities. Along the hard family, combine that scale control with a fourth-derivative estimate to bound $`|p-c|`$ by $`B_k\min(c,1-c)\delta^4`$. The Bernoulli divergence is then uniformly $`O_k(\delta^8)`$, and data processing for the final decision forces the repetition lower bound.
 
 **Prerequisites.** [M11](#m11-probability-gaps-and-statistical-evidence), [M21](#m21-a-constant-probability-on-the-two-qubit-boundary), [M24](#m24-weak-entanglement-and-fourth-order-sensitivity).
 
-**Evidence target.** Identify why an effect-dependent bound on $q$ alone would be insufficient for minimax optimization. Explain why an effect chosen using $\delta,\eta$ remains covered when it is globally universal and $k$ is fixed.
+**Evidence target.** Identify why an effect-dependent bound on $`q`$ alone would be insufficient for minimax optimization. Explain why an effect chosen using $`\delta,\eta`$ remains covered when it is globally universal and $`k`$ is fixed.
 
 **Canonical sources.** [Uniform probability bound](../science/sampling_cost.md#3-a-probability-bound-uniform-over-all-universal-effects); [information lower bound](../science/sampling_cost.md#4-information-theoretic-lower-bound); [explicit uniform constants](../science/sampling_cost.md#r3-uniform-repetition-bounds).
 
@@ -381,11 +381,11 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** What makes the repetition exponent sharp, and what restriction causes it?
 
-**Understanding target.** Combine the imported determinant–concurrence bound with the local trace-distance comparison to obtain $|\det(\rho^\Gamma)|\ge\Delta^4$. The normalized detector and a frequency threshold attain $O(\delta^{-8}\log(1/\eta))$ repetitions. Join this upper bound to M25 as R3 for fixed $k\ge4$, $0<\delta\le1/2$, and $0<\eta\le1/4$. Compare it with the $\Theta(\delta^{-2}\log(1/\eta))$ total-copy law for unrestricted two-qubit measurements.
+**Understanding target.** Combine the imported determinant–concurrence bound with the local trace-distance comparison to obtain $`|\det(\rho^\Gamma)|\ge\Delta^4`$. The normalized detector and a frequency threshold attain $`O(\delta^{-8}\log(1/\eta))`$ repetitions. Join this upper bound to M25 as R3 for fixed $`k\ge4`$, $`0\lt\delta\le1/2`$, and $`0\lt\eta\le1/4`$. Compare it with the $`\Theta(\delta^{-2}\log(1/\eta))`$ total-copy law for unrestricted two-qubit measurements.
 
 **Prerequisites.** [M08](#m08-distance-and-witness-certificates), [M23](#m23-a-feasible-and-normalized-binary-detector), [M25](#m25-a-uniform-repetition-lower-bound).
 
-**Evidence target.** Explain the architectural cost of exact universal binary readout at fixed $k$, with total copies $kn$. Distinguish the best rate in this class from the behavior of every effect and from an optimal tradeoff when $k$ grows with the gap.
+**Evidence target.** Explain the architectural cost of exact universal binary readout at fixed $`k`$, with total copies $`kn`$. Distinguish the best rate in this class from the behavior of every effect and from an optimal tradeoff when $`k`$ grows with the gap.
 
 **Canonical sources.** [Determinant and distance](../science/sampling_cost.md#2-determinant-and-distance-to-separability); [matching upper bound](../science/sampling_cost.md#5-matching-four-copy-upper-bound); [unrestricted comparison](../science/sampling_cost.md#6-comparison-with-unrestricted-measurements); [theorem boundaries](../science/sampling_cost.md#7-boundaries-of-the-theorem).
 
@@ -395,7 +395,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How does the qubit–qutrit obstruction change if a detector may ignore weak entanglement?
 
-**Understanding target.** Formulate S1 with no required decision on $0<\Delta<\delta$ and an exactly known binary probability. Use witnesses to certify the gap on the physical corner. Embed two independent Boolean majorities, convert arbitrary scalar postprocessing to a strict polynomial sign representation, and identify the imported threshold-degree theorem that yields an $\Omega(\log(1/\delta))$ block-size lower bound.
+**Understanding target.** Formulate S1 with no required decision on $`0\lt\Delta\lt\delta`$ and an exactly known binary probability. Use witnesses to certify the gap on the physical corner. Embed two independent Boolean majorities, convert arbitrary scalar postprocessing to a strict polynomial sign representation, and identify the imported threshold-degree theorem that yields an $`\Omega(\log(1/\delta))`$ block-size lower bound.
 
 **Prerequisites.** [M06](#m06-polynomial-degree-and-collective-realization), [M08](#m08-distance-and-witness-certificates), [M14](#m14-why-one-scalar-cannot-classify-the-corner), [M26](#m26-the-sharp-statistical-law-and-its-comparison).
 
@@ -409,7 +409,7 @@ The map is separate from learner state. Reading a page, furnishing the repositor
 
 **Central question.** How can a single probability combine the promised spectral signs?
 
-**Understanding target.** Convert a trace-distance gap into a negative gap in at least one of $e_3,e_4,e_5,e_6$. Use a bounded rational sign filter so that one negative coordinate cannot be overwhelmed by the others. Clear strictly positive denominators, control the polynomial degree by $O(\log(1/\delta))$, and realize that polynomial as a fixed binary effect.
+**Understanding target.** Convert a trace-distance gap into a negative gap in at least one of $`e_3,e_4,e_5,e_6`$. Use a bounded rational sign filter so that one negative coordinate cannot be overwhelmed by the others. Clear strictly positive denominators, control the polynomial degree by $`O(\log(1/\delta))`$, and realize that polynomial as a fixed binary effect.
 
 **Prerequisites.** [M06](#m06-polynomial-degree-and-collective-realization), [M07](#m07-spectral-coefficients-and-antisymmetric-observables), [M27](#m27-the-block-size-cost-of-a-promise-gap).
 

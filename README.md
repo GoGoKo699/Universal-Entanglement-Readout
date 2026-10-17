@@ -10,20 +10,20 @@ Each run applies the same state-independent POVM to a fixed finite number of ind
 | Qubit–qutrit states with an invertible qutrit marginal | **3** | **6** |
 | Arbitrary qubit–qutrit states | **4** | **6** |
 
-The four-copy two-qubit detector is [established prior work](references/RELATED_WORK.md#augusiak2008). The outcome lower bounds permit every finite block size, and the six-copy qubit–qutrit constructions are explicit upper bounds. The four-outcome lower bound also embeds into every other nontrivial bipartite dimension except $2\times2$; sufficiency of four outcomes is established here for $2\times3$.
+The four-copy two-qubit detector is [established prior work](references/RELATED_WORK.md#augusiak2008). The outcome lower bounds permit every finite block size, and the six-copy qubit–qutrit constructions are explicit upper bounds. The four-outcome lower bound also embeds into every other nontrivial bipartite dimension except $`2\times2`$; sufficiency of four outcomes is established here for $`2\times3`$.
 
-For exactly universal binary two-qubit detectors at any fixed block size $k\ge4$, the best worst-case repetition count for a half-trace-distance gap $\delta$ and error target $0<\eta\le1/4$ is
+For exactly universal binary two-qubit detectors at any fixed block size $`k\ge4`$, the best worst-case repetition count for a half-trace-distance gap $`\delta`$ and error target $`0\lt\eta\le1/4`$ is
 
-$$
+```math
 n_{\mathrm{univ},k}(\delta,\eta)
 =\Theta_k\!\left(\delta^{-8}\log\frac1\eta\right).
-$$
+```
 
 Every such probability polynomial obeys
 
-$$
+```math
 p_E(\rho)=c+\det(\rho^\Gamma)q(\rho).
-$$
+```
 
 The determinant factor forces at least fourth-order flatness along a weakly entangled pure-state path. An effect-independent information bound gives the repetition lower bound, and a normalized four-copy determinant measurement attains its exponent. The requirement of exact universality on all mixed states is essential. This is distinct from unrestricted entanglement testing, whose fixed-dimensional total-copy benchmark is derived in the statistical account.
 
@@ -41,7 +41,7 @@ Start with the [manuscript account](manuscript/main.md) for the question, mechan
 | Established ingredients and nearby measurement models | [Related work](references/RELATED_WORK.md) and [bibliography](references/references.bib) |
 | Exact calculations and their scope | [Verification](verification/README.md) |
 
-The supporting qubit–qutrit promise-gap theorem gives a minimum binary block size proportional to $\log(1/\delta)$ when arbitrarily fine probability resolution is permitted. Its probability margin is not controlled, so this is a block-size result rather than a total-sampling bound.
+The supporting qubit–qutrit promise-gap theorem gives a minimum binary block size proportional to $`\log(1/\delta)`$ when arbitrarily fine probability resolution is permitted. Its probability margin is not controlled, so this is a block-size result rather than a total-sampling bound.
 
 ## Learn the project
 
