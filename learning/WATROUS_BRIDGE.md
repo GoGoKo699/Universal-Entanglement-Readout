@@ -19,8 +19,7 @@ Watrous supplies the quantum-information foundations. This bridge supplies
 the project-specific connections to polynomial classification, boundary
 geometry, and statistical lower bounds. The [30-milestone map](MILESTONES.md)
 organizes the complete understanding route; the [model](../science/model.md)
-owns the exact theorem domains and resource definitions. Reading this bridge
-does not establish a milestone pass.
+owns the exact theorem domains and resource definitions.
 
 ## Targeted reading from the single anchor
 
@@ -36,7 +35,7 @@ lookups within one source, not a requirement to finish the book first.
 | The separable boundary, M09–M10 | [Section 1.2.1](https://cs.uwaterloo.ca/~watrous/TQI/TQI.1.pdf); [Sections 6.1.1 and 6.2.3](https://cs.uwaterloo.ca/~watrous/TQI/TQI.6.pdf) | Convexity, separability, and partial transposition. The analytic and algebraic continuation arguments are supplied in the project proofs. |
 | Probability gaps and information, M11 | [Sections 5.1.1–5.1.2](https://cs.uwaterloo.ca/~watrous/TQI/TQI.5.pdf) | Classical relative entropy as a measure of distinguishability between output distributions. |
 | The unrestricted statistical comparison, M26 | [Section 5.2.3](https://cs.uwaterloo.ca/~watrous/TQI/TQI.5.pdf) | Theorem 5.35 gives quantum relative-entropy monotonicity under channels. |
-| Integrating the operational question, M12, and the final story, M30 | [Model and exact claims](../science/model.md) and [manuscript](../manuscript/main.md) | Combine the foundations with the actual apparatus restrictions and proved conclusions. |
+| Integrating the operational question, M12, and the final story, M30 | [Model and exact claims](../science/model.md) and [resource interpretation](../science/interpretation.md) | Combine the foundations with the actual apparatus restrictions and proved conclusions. |
 
 Section 6.1.1 gives the separable-state framework, including compactness and
 convexity. Section 6.2.3 introduces the PPT framework and its limitations.
@@ -670,9 +669,10 @@ hierarchy; M21–M23 establish binary rigidity; M24–M26 derive the
 statistical law; M27–M28 analyze the changed promise; and M29–M30
 integrate attribution, evidence, and the scientific story.
 
-The [manuscript](../manuscript/main.md) connects the arguments in one
-account. The [science pages](../science/model.md#reading-and-verification)
-contain the full proofs. [Related work](../references/RELATED_WORK.md)
+The [scientific reading route](../science/model.md#reading-and-verification)
+connects the topic-based accounts and their complete proofs. The
+[resource interpretation](../science/interpretation.md) joins the conclusions
+and their physical meaning. [Related work](../references/RELATED_WORK.md)
 identifies the imported theorem ingredients and the scope of the
 contributions. The [exact verification guide](../verification/README.md)
 specifies which finite constructions and identities the scripts check.
