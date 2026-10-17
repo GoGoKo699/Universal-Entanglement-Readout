@@ -43,6 +43,14 @@ Start with the [manuscript account](manuscript/main.md) for the question, mechan
 
 The supporting qubit–qutrit promise-gap theorem gives a minimum binary block size proportional to $\log(1/\delta)$ when arbitrarily fine probability resolution is permitted. Its probability margin is not controlled, so this is a block-size result rather than a total-sampling bound.
 
+## Learn the project
+
+The single educational anchor is **John Watrous, *The Theory of Quantum Information* (2018)**. The [Watrous bridge](learning/WATROUS_BRIDGE.md) identifies the relevant sections of the author's available manuscript, translates the notation, and develops the connections to this project's geometric and statistical arguments.
+
+The [30-milestone map](learning/MILESTONES.md) gives a common route through the whole project. Its **12 background/preliminaries milestones** build the operational framework; its **18 narrative/innovation milestones** connect the proof mechanisms to the attained hierarchy and its resource consequences. The targets depend on the project, while explanations and examples can adapt to the reader.
+
+For guided study, the [coaching guide](learning/COACHING.md) specifies Revise → Learn → Test, the initial two-question challenge, targeted learning after an unsuccessful attempt, and the all-correct retry rule. [The LLM reading guide](llms.txt) connects these learning materials to the authoritative scientific files. Specialists can use the direct proof route above.
+
 ## Reproduce the finite checks
 
 From the repository root, run:
@@ -56,5 +64,7 @@ The suite uses only Python's standard library and compares deterministic exact-a
 ## Scope
 
 The measurements are global and state independent. No QRAM, efficient gate decomposition, or minimal six-copy implementation is assumed. Exact identifiability and finite-sample guarantees are separate statements. The three-outcome rank promise, the fixed block size in the sampling law, and the statistical-margin limitation in the supporting theorem remain part of the claims.
+
+## Purpose and contact
 
 This repository serves as a record of the work and a guide for the author’s self-directed learning. For discussion or potential collaboration, please contact Ruge Lin at [gogoko699@gmail.com](mailto:gogoko699@gmail.com).
