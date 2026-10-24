@@ -1,6 +1,6 @@
 # Related work and attribution
 
-This document identifies the established results used in this project and distinguishes nearby measurement models. Citation keys in square brackets match [references.bib](references.bib). The literature review was last checked on 17 October 2026.
+This document identifies the established results used in this project and distinguishes nearby measurement models. Citation keys in square brackets match [references.bib](references.bib). The literature comparison was refreshed on 24 October 2026; its coverage limits are stated below.
 
 ## Scope of the comparison
 
@@ -96,6 +96,12 @@ This work constructs a complete family of invariant nonlinear witnesses using te
 
 Corollary 3 proves semialgebraicity of the separable set. Conjectures 4 and 5 separately formulate stronger descriptions by finite conjunctions of polynomial inequalities. This distinction matters: a finite Boolean polynomial description is not, by itself, a proof of a single polynomial classifier or a finite conjunction of individually nonnegative witnesses. The low-dimensional constructions here use explicit PPT criteria and do not need such an inference.
 
+### Zhu2026
+
+**Xuanran Zhu, Keyi Huang, Chao Zhang, Xinfang Nie, Qi Zhao, and Dawei Lu, “Universal entanglement detection with geometrically optimal witnesses,” Physical Review A 114, 042409 (2026)** [Zhu2026]. [Publisher](https://doi.org/10.1103/82gn-78lv), [primary full text, v1](https://arxiv.org/html/2610.17592v1).
+
+Equation (2) constructs a witness from a specified target state and its nearest separable state in Hilbert–Schmidt distance; Eq. (3) optimizes the expectation gap for that target. This is a universal method for constructing target-dependent witnesses. The present model instead requires one state-independent apparatus to classify every unknown input from its retained distribution. The quantifiers differ, so the witness construction does not establish a fixed scalar classifier or contradict the outcome lower bounds.
+
 ## Single-copy and few-copy measurement comparisons
 
 ### Carmeli2016
@@ -118,6 +124,12 @@ The nonadaptive no-go restricts measurements to single copies. It does not rule 
 | Suchetana Goswami et al., “Universal detection of entanglement in two-qubit states using only two copies,” Physical Review A 99, 012327 (2019) [Goswami2019]. [Publisher](https://doi.org/10.1103/PhysRevA.99.012327), [primary text](https://arxiv.org/pdf/1808.08246). | The two-copy weak-value protocol retains multiple postselection outcomes, probabilities, and pointer shifts; it permits complete state identification. One postselection setting does not mean one retained binary probability. |
 
 These results are compatible with a four-copy minimum specifically for an exactly universal binary apparatus.
+
+### Zeman2026
+
+**Martin Zeman, Vojtěch Trávníček, Antonín Černoch, Jan Soubusta, and Karel Lemr, “Adaptive Negativity Estimation via Collective Measurements,” arXiv:2603.25560v1 (2026)** [Zeman2026]. [Primary full text](https://arxiv.org/html/2603.25560v1).
+
+The method uses two-copy collective measurements, retains a sequence of probabilities, and selects later local projectors using earlier measurement results. A trained recurrent neural network estimates negativity for two-qubit and qubit–qutrit states. This adaptive estimation task differs from exact classification of all mixed states by one fixed binary probability. Its reported estimation performance also does not supply a worst-case distance-gap repetition law for that apparatus class.
 
 ## Statistical precursors and the fixed-apparatus restriction
 
