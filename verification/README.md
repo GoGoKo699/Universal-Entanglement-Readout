@@ -46,3 +46,13 @@ The following statements are not certified by enumerating these examples:
 - Completeness of the low-dimensional PPT criterion, the imported determinant–concurrence bound, or bibliographic priority.
 
 Those dependencies are proved in the [science pages](../science/model.md) or attributed in [Related work](../references/RELATED_WORK.md). No claim of experimental validation or external peer review follows from this suite.
+
+## Current sanity-check record
+
+The review on **24 October 2026** inspected scientific revision `b29a9d73a886bffb940fe3020330ab4b165fde95` and the accompanying literature-only refresh. It found no confirmed defect in R1, R2, R3 or S1. The review reconstructed the outcome obstructions and rank-sensitive criterion, determinant divisibility, collective-observable normalization and positivity, uniform statistical bounds, and promise-gap reduction. It checked the imported determinant–concurrence inequality and Sherstov's Theorem 1.10 against their primary texts.
+
+All five exact checks reproduced their committed JSON under Python 3.12.14. In isolated temporary copies, missing or altered reference outputs, an injected failed assertion, and optimized Python mode each caused a nonzero exit; execution from an unrelated working directory succeeded. The learning review confirmed exactly M01–M30, the 12/18 phase allocation, strictly earlier prerequisites, valid local links and anchors, and the cited Watrous section and theorem pointers.
+
+GitHub's hosted renderer was visually inspected on the [README](../README.md), [Watrous bridge](../learning/WATROUS_BRIDGE.md), [milestone map](../learning/MILESTONES.md), [outcome proof](../science/outcome_minima.md), and [sampling proof](../science/sampling_cost.md). The inspected views included result tables, the physical-corner matrix, partial transpose, antisymmetric-projector notation, bra–ket expressions, and statistical formulas. No display error was found in those views; this was not a screenshot inspection of every equation.
+
+The refreshed [literature comparison](../references/RELATED_WORK.md) distinguishes target-dependent geometric witnesses and adaptive two-copy estimation from the fixed universal apparatus. This internal review and bounded literature search do not certify exhaustive priority or replace independent expert review.
